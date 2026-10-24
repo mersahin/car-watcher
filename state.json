@@ -35,6 +35,27 @@
    "reason": "privat + 471 km (> 100 km)",
    "title": "Peugeot iOn"
   },
+  "3495409897": {
+   "first_seen": "2026-10-24T18:13:56+00:00",
+   "notified": true,
+   "price": 2999,
+   "reason": "",
+   "title": "Citroën C-Zero C-ZERO Tendance, SHZ, Klimaanlage, 2 Hand"
+  },
+  "3504154500": {
+   "first_seen": "2026-10-24T18:14:49+00:00",
+   "notified": true,
+   "price": 3990,
+   "reason": "",
+   "title": "Mitsubishi i-MiEV*Klima* guter Zustand*"
+  },
+  "3509483003": {
+   "first_seen": "2026-10-24T18:14:44+00:00",
+   "notified": true,
+   "price": 3490,
+   "reason": "",
+   "title": "Mitsubishi i-MiEV*Klima* guter Zustand*"
+  },
   "3519175609": {
    "first_seen": "2026-10-24T17:17:32+00:00",
    "notified": false,
@@ -48,6 +69,13 @@
    "price": 4600,
    "reason": "",
    "title": "Nissan Leaf Visia"
+  },
+  "3520532950": {
+   "first_seen": "2026-10-24T18:14:31+00:00",
+   "notified": false,
+   "price": 1400,
+   "reason": "privat + 472 km (> 100 km)",
+   "title": "6"
   },
   "3520771969": {
    "first_seen": "2026-10-24T17:17:04+00:00",
@@ -70,12 +98,47 @@
    "reason": "privat + 539 km (> 100 km)",
    "title": "Nissan Leaf (2013) | Winterpaket | 8-fach bereift | Lade-Adapter"
   },
+  "3525508314": {
+   "first_seen": "2026-10-24T18:13:51+00:00",
+   "notified": true,
+   "price": 4470,
+   "reason": "",
+   "title": "Citroën C-Zero C-ZERO Tendance"
+  },
+  "3526443696": {
+   "first_seen": "2026-10-24T18:14:26+00:00",
+   "notified": false,
+   "price": 1500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Citroen c-zero, i-miev , ion"
+  },
+  "3526784375": {
+   "first_seen": "2026-10-24T18:15:10+00:00",
+   "notified": false,
+   "price": 4600,
+   "reason": "kara liste: 'defekt'",
+   "title": "Mitsubishi i-MiEV"
+  },
   "3529971693": {
    "first_seen": "2026-10-24T17:17:21+00:00",
    "notified": true,
    "price": 5999,
    "reason": "",
    "title": "Renault ZOE Zoe Intens#R.Cam#Tempomat#NAVI#KeylesGO"
+  },
+  "3536286437": {
+   "first_seen": "2026-10-24T18:15:04+00:00",
+   "notified": false,
+   "price": 1300,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Mitsubishi i-MiEV Bastler Läuft nicht Elektro"
+  },
+  "3536381638": {
+   "first_seen": "2026-10-24T18:14:59+00:00",
+   "notified": false,
+   "price": 1500,
+   "reason": "kara liste: 'export'",
+   "title": "Mitsubishi i-MiEV Electric Vehicle MiEV -"
   },
   "3538220440": {
    "first_seen": "2026-10-24T17:45:56+00:00",
@@ -133,6 +196,20 @@
    "reason": "kara liste: 'unfall'",
    "title": "Renault ZOE Zen Zen"
   },
+  "3542054515": {
+   "first_seen": "2026-10-24T18:14:21+00:00",
+   "notified": false,
+   "price": 4900,
+   "reason": "privat + 371 km (> 100 km)",
+   "title": "Citroen C-ZERO Weiss"
+  },
+  "3542869998": {
+   "first_seen": "2026-10-24T18:14:16+00:00",
+   "notified": false,
+   "price": 1800,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "CITROEN C3 1,0 VTI 04.2014 KLIMA 4 TÜRIG 110 Tkm"
+  },
   "3543209267": {
    "first_seen": "2026-10-24T17:44:57+00:00",
    "notified": false,
@@ -168,6 +245,13 @@
    "reason": "privat + 244 km (> 100 km)",
    "title": "Renault Zoe, Elektroauto 22KW, Leasingakku, top Zustand"
   },
+  "3548366951": {
+   "first_seen": "2026-10-24T18:14:54+00:00",
+   "notified": false,
+   "price": 3000,
+   "reason": "kara liste: 'defekt'",
+   "title": "Mitsubishi i-Miev Elektroauto"
+  },
   "3549046404": {
    "first_seen": "2026-10-24T17:16:28+00:00",
    "notified": false,
@@ -182,12 +266,33 @@
    "reason": "kara liste: 'bastler'",
    "title": "Renault Zoe inkl. Batterie"
   },
+  "3549198928": {
+   "first_seen": "2026-10-24T18:14:09+00:00",
+   "notified": false,
+   "price": 3850,
+   "reason": "privat + 537 km (> 100 km)",
+   "title": "Citroen C Zero • 1. Hand • 8 Fachbereift • Klima • Sitzheizung"
+  },
   "3549355078": {
    "first_seen": "2026-10-24T17:17:53+00:00",
    "notified": false,
    "price": 6150,
    "reason": "privat + 277 km (> 100 km)",
    "title": "Renault Zoe ZEN Eigentumsbatterie!!"
+  },
+  "3549450589": {
+   "first_seen": "2026-10-24T18:14:02+00:00",
+   "notified": false,
+   "price": 4990,
+   "reason": "privat + 310 km (> 100 km)",
+   "title": "Citroën C-Zero Elektro,TÜV neu,gepflegt,wenig Kilometer"
+  },
+  "3549455031": {
+   "first_seen": "2026-10-24T18:14:39+00:00",
+   "notified": true,
+   "price": 4999,
+   "reason": "",
+   "title": "Mitsubishi i-MiEV MiEV"
   },
   "3549788438": {
    "first_seen": "2026-10-24T17:17:48+00:00",
