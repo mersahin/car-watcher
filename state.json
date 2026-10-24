@@ -1,11 +1,39 @@
 {
  "ads": {
+  "3329917811": {
+   "first_seen": "2026-10-24T17:45:17+00:00",
+   "notified": true,
+   "price": 4950,
+   "reason": "",
+   "title": "Renault ZOE Zoe Life Top Zustand"
+  },
+  "3441718145": {
+   "first_seen": "2026-10-24T17:45:09+00:00",
+   "notified": true,
+   "price": 6990,
+   "reason": "",
+   "title": "Renault ZOE Intens Inkl. Batterie. 1. Hd. Klimaaut. Met."
+  },
+  "3448716231": {
+   "first_seen": "2026-10-24T17:45:03+00:00",
+   "notified": false,
+   "price": 5950,
+   "reason": "kara liste: 'export'",
+   "title": "Renault ZOE Zoe Intens/ Ze/ Elektro /Mietbatterie/2.Hand"
+  },
   "3459761338": {
    "first_seen": "2026-10-24T17:16:45+00:00",
    "notified": true,
    "price": 5155,
    "reason": "",
    "title": "Nissan Leaf Acenta~SH~TEMP~NAVI"
+  },
+  "3494431980": {
+   "first_seen": "2026-10-24T17:46:07+00:00",
+   "notified": false,
+   "price": 4000,
+   "reason": "privat + 471 km (> 100 km)",
+   "title": "Peugeot iOn"
   },
   "3519175609": {
    "first_seen": "2026-10-24T17:17:32+00:00",
@@ -49,6 +77,41 @@
    "reason": "",
    "title": "Renault ZOE Zoe Intens#R.Cam#Tempomat#NAVI#KeylesGO"
   },
+  "3538220440": {
+   "first_seen": "2026-10-24T17:45:56+00:00",
+   "notified": false,
+   "price": 6800,
+   "reason": "privat + 517 km (> 100 km)",
+   "title": "Renault ZOE SOH 92% inkl. Eigentumsbatterie! 5AM 450"
+  },
+  "3538763818": {
+   "first_seen": "2026-10-24T17:45:50+00:00",
+   "notified": false,
+   "price": 7000,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault Zoe ZE40 | 41 kWh | TÜV neu | Neue Reifen & Bremsen"
+  },
+  "3540191995": {
+   "first_seen": "2026-10-24T17:45:43+00:00",
+   "notified": false,
+   "price": 5999,
+   "reason": "kara liste: 'unfall'",
+   "title": "Ich suche ein Renault Zoe Unfall Oder Defekt"
+  },
+  "3540396565": {
+   "first_seen": "2026-10-24T17:45:38+00:00",
+   "notified": false,
+   "price": 3200,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe 2016 Defekt DC/DC Wandler inkl. der 22kw Batterie"
+  },
+  "3540442255": {
+   "first_seen": "2026-10-24T17:45:32+00:00",
+   "notified": false,
+   "price": 7000,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault ZOE Life Life"
+  },
   "3540668732": {
    "first_seen": "2026-10-24T17:16:50+00:00",
    "notified": true,
@@ -56,12 +119,54 @@
    "reason": "",
    "title": "Nissan Leaf 24 kW"
   },
+  "3540673473": {
+   "first_seen": "2026-10-24T17:45:26+00:00",
+   "notified": false,
+   "price": 4200,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe Elektro | Mietbatterie /Bastler/Export"
+  },
+  "3541904189": {
+   "first_seen": "2026-10-24T17:45:21+00:00",
+   "notified": false,
+   "price": 4200,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault ZOE Zen Zen"
+  },
+  "3543209267": {
+   "first_seen": "2026-10-24T17:44:57+00:00",
+   "notified": false,
+   "price": 5200,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "renault zoe 2016"
+  },
   "3544795844": {
    "first_seen": "2026-10-24T17:17:14+00:00",
    "notified": false,
    "price": 4890,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault Zoe Z.E. *BATTERIE-INKLUSIVE*"
+  },
+  "3546858140": {
+   "first_seen": "2026-10-24T17:44:50+00:00",
+   "notified": true,
+   "price": 5700,
+   "reason": "",
+   "title": "Renault Zoe inkl. Batterie"
+  },
+  "3547041423": {
+   "first_seen": "2026-10-24T17:44:46+00:00",
+   "notified": false,
+   "price": 5499,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE 22 kWh Kaufbatterie 8 Fach Navi PDC 3. Hd Klimadefekt"
+  },
+  "3548083892": {
+   "first_seen": "2026-10-24T17:44:40+00:00",
+   "notified": false,
+   "price": 5850,
+   "reason": "privat + 244 km (> 100 km)",
+   "title": "Renault Zoe, Elektroauto 22KW, Leasingakku, top Zustand"
   },
   "3549046404": {
    "first_seen": "2026-10-24T17:16:28+00:00",
