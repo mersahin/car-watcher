@@ -1,4 +1,111 @@
 {
- "ads": {},
- "blocked_runs": 0
+ "ads": {
+  "3459761338": {
+   "first_seen": "2026-10-24T17:16:45+00:00",
+   "notified": true,
+   "price": 5155,
+   "reason": "",
+   "title": "Nissan Leaf Acenta~SH~TEMP~NAVI"
+  },
+  "3519175609": {
+   "first_seen": "2026-10-24T17:17:32+00:00",
+   "notified": false,
+   "price": 4999,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Intens*Klima*Navi*PDC*Kamera*Inkl.Batterie*"
+  },
+  "3519532517": {
+   "first_seen": "2026-10-24T17:16:36+00:00",
+   "notified": true,
+   "price": 4600,
+   "reason": "",
+   "title": "Nissan Leaf Visia"
+  },
+  "3520771969": {
+   "first_seen": "2026-10-24T17:17:04+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 348 km (> 100 km)",
+   "title": "Nissan Leaf 2013, 24 kWh, neue Batterie (SOH 90%)"
+  },
+  "3522221327": {
+   "first_seen": "2026-10-24T17:17:27+00:00",
+   "notified": true,
+   "price": 6990,
+   "reason": "",
+   "title": "Renault ZOE Life /NAVI/LED/TEMPOMAT/BEHEIZBARES LENKRAD"
+  },
+  "3522888630": {
+   "first_seen": "2026-10-24T17:16:56+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "privat + 539 km (> 100 km)",
+   "title": "Nissan Leaf (2013) | Winterpaket | 8-fach bereift | Lade-Adapter"
+  },
+  "3529971693": {
+   "first_seen": "2026-10-24T17:17:21+00:00",
+   "notified": true,
+   "price": 5999,
+   "reason": "",
+   "title": "Renault ZOE Zoe Intens#R.Cam#Tempomat#NAVI#KeylesGO"
+  },
+  "3540668732": {
+   "first_seen": "2026-10-24T17:16:50+00:00",
+   "notified": true,
+   "price": 6500,
+   "reason": "",
+   "title": "Nissan Leaf 24 kW"
+  },
+  "3544795844": {
+   "first_seen": "2026-10-24T17:17:14+00:00",
+   "notified": false,
+   "price": 4890,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe Z.E. *BATTERIE-INKLUSIVE*"
+  },
+  "3549046404": {
+   "first_seen": "2026-10-24T17:16:28+00:00",
+   "notified": false,
+   "price": 5995,
+   "reason": "kiralık batarya: 'leasing-batterie'",
+   "title": "Nissan Leaf Acenta (Navi * SHZ * PDC )"
+  },
+  "3549062966": {
+   "first_seen": "2026-10-24T17:17:58+00:00",
+   "notified": false,
+   "price": 3900,
+   "reason": "kara liste: 'bastler'",
+   "title": "Renault Zoe inkl. Batterie"
+  },
+  "3549355078": {
+   "first_seen": "2026-10-24T17:17:53+00:00",
+   "notified": false,
+   "price": 6150,
+   "reason": "privat + 277 km (> 100 km)",
+   "title": "Renault Zoe ZEN Eigentumsbatterie!!"
+  },
+  "3549788438": {
+   "first_seen": "2026-10-24T17:17:48+00:00",
+   "notified": false,
+   "price": 3000,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe ph1"
+  },
+  "3550537575": {
+   "first_seen": "2026-10-24T17:17:43+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 172 km (> 100 km)",
+   "title": "Renault ZOE Zen"
+  },
+  "3550800039": {
+   "first_seen": "2026-10-24T17:17:36+00:00",
+   "notified": false,
+   "price": 6000,
+   "reason": "privat + 583 km (> 100 km)",
+   "title": "Renault ZOE Life Life"
+  }
+ },
+ "blocked_runs": 0,
+ "empty_runs": 0
 }
