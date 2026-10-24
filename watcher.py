@@ -57,18 +57,50 @@ def save_state(state: dict) -> None:
         json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)
 
 
-def tg_send(text: str) -> None:
+def tg_send(text: str, buttons: list[list[dict]] | None = None) -> None:
     if not TG_TOKEN or not TG_CHAT:
         log("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID eksik — mesaj atlanıyor:")
         log(text)
+        if buttons:
+            log(f"butonlar: {json.dumps(buttons, ensure_ascii=False)}")
         return
-    r = requests.post(
-        f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-        json={"chat_id": TG_CHAT, "text": text, "parse_mode": "HTML"},
-        timeout=20,
-    )
+    payload = {"chat_id": TG_CHAT, "text": text, "parse_mode": "HTML",
+               "link_preview_options": {"is_disabled": True}}
+    if buttons:
+        payload["reply_markup"] = {"inline_keyboard": buttons}
+    url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
+    r = requests.post(url, json=payload, timeout=20)
+    if r.status_code != 200 and buttons:
+        # Buton reddedilirse bildirimi kaybetme: butonsuz tekrar dene.
+        log(f"Telegram butonları reddetti {r.status_code}: {r.text[:200]} — butonsuz deneniyor")
+        payload.pop("reply_markup")
+        r = requests.post(url, json=payload, timeout=20)
     if r.status_code != 200:
         log(f"Telegram hatası {r.status_code}: {r.text[:200]}")
+
+
+def seller_message(search: dict, notes: list[str]) -> str:
+    """Satıcıya yapıştırılacak hazır Almanca mesaj (Telegram copy_text sınırı: 256 karakter)."""
+    parts = [config.MSG_GREETING]
+    battery_unclear = search.get("require_any") or any("atarya" in n for n in notes)
+    if battery_unclear:
+        parts.append(config.Q_BATTERY_OWNED)
+    if search.get("ask_soh"):
+        parts.append(config.Q_SOH)
+    parts.append(config.MSG_CLOSING)
+    msg = " ".join(parts)
+    while len(msg) > 256 and len(parts) > 2:  # sığmazsa sondan bir önceki soruyu at
+        parts.pop(-2)
+        msg = " ".join(parts)
+    return msg[:256]
+
+
+def ad_buttons(url: str, seller_msg: str | None = None) -> list[list[dict]]:
+    row = []
+    if seller_msg:
+        row.append({"text": "📋 Mesajı kopyala", "copy_text": {"text": seller_msg}})
+    row.append({"text": "🔗 İlanı aç", "url": url})
+    return [row]
 
 
 class Blocked(Exception):
@@ -238,7 +270,7 @@ def evaluate(search: dict, ad: dict, detail: dict) -> tuple[str, list[str]]:
     return "notify", notes
 
 
-def format_message(search: dict, ad: dict, detail: dict, notes: list[str]) -> str:
+def format_message(search: dict, ad: dict, detail: dict, notes: list[str], seller_msg: str = "") -> str:
     title = html.escape(ad["title"])
     price = f"{ad['price']:,} €".replace(",", ".") if ad["price"] else "? €"
     tags = " | ".join(ad.get("tags", [])[:3])
@@ -250,12 +282,30 @@ def format_message(search: dict, ad: dict, detail: dict, notes: list[str]) -> st
         f"📍 {loc} — {dist}  ({detail['seller']})",
     ]
     lines += notes if notes else ["✅ Metinde kırmızı bayrak yok."]
+    if seller_msg:
+        # <code> içindeki metin Telegram'da dokununca da kopyalanır (eski istemciler için yedek).
+        lines.append(f"\n✉️ <code>{html.escape(seller_msg)}</code>")
     lines.append(ad["url"])
     return "\n".join(lines)
 
 
 # --------------------------------------------------------------------------- main
+def send_test() -> int:
+    """Gerçek bir ilanın sahte bildirimini yollar: butonları denemek için (state'e dokunmaz)."""
+    search = next(s for s in config.SEARCHES if s.get("require_any"))
+    ad = {"title": "TEST — örnek ilan", "price": 6500, "tags": ["80.000 km", "EZ 03/2017"],
+          "dist_km": 25, "location": "", "url": "https://www.kleinanzeigen.de/s-autos/c216"}
+    detail = {"locality": "40789 Monheim am Rhein", "seller": "Privat"}
+    notes = ["⚠️ Satın alınmış batarya ibaresi YOK — Batteriemiete olabilir, mutlaka sor."]
+    smsg = seller_message(search, notes)
+    tg_send(format_message(search, ad, detail, notes, smsg), ad_buttons(ad["url"], smsg))
+    log("Test bildirimi gönderildi.")
+    return 0
+
+
 def main() -> int:
+    if "--test" in sys.argv:
+        return send_test()
     state = load_state()
     seen = state["ads"]
     session = requests.Session()
@@ -288,7 +338,8 @@ def main() -> int:
                     ):
                         tg_send(
                             f"📉 <b>Fiyat düştü:</b> {html.escape(ad['title'])}\n"
-                            f"{prev['price']:,} € → <b>{ad['price']:,} €</b>\n{ad['url']}".replace(",", ".")
+                            f"{prev['price']:,} € → <b>{ad['price']:,} €</b>\n{ad['url']}".replace(",", "."),
+                            ad_buttons(ad["url"]),
                         )
                         prev["price"] = ad["price"]
                     continue
@@ -314,7 +365,8 @@ def main() -> int:
                     "reason": "; ".join(notes) if verdict == "reject" else "",
                 }
                 if verdict == "notify":
-                    tg_send(format_message(search, ad, detail, notes))
+                    smsg = seller_message(search, notes)
+                    tg_send(format_message(search, ad, detail, notes, smsg), ad_buttons(ad["url"], smsg))
                     new_count += 1
                     log(f"  ✓ bildirildi: {ad['title'][:60]}")
                 else:

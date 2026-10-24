@@ -6,16 +6,25 @@ MAX_DIST_DEALER_KM = None     # Händler: None = sınırsız (örn. 300 yazarsan
 MIN_PRICE = 1000              # Parça/scam ilanlarını ele
 MAX_DETAIL_FETCH_PER_RUN = 15 # Bir koşuda en fazla kaç detay sayfası çekilsin
 
+# --- Satıcıya hazır mesaj ("📋 Mesajı kopyala" butonu) -----------------------
+# Toplam 256 karakteri geçemez (Telegram sınırı); geçerse SOH sorusu düşer.
+MSG_GREETING = "Hallo, ist das Auto noch verfügbar?"
+Q_BATTERY_OWNED = "Ist die Batterie gekauft (keine Batteriemiete)? Gibt es dafür einen Nachweis?"
+Q_SOH = "Wie ist der aktuelle SOH der Batterie?"
+MSG_CLOSING = "Viele Grüße"
+
 # --- Aramalar -------------------------------------------------------------------
 # URL formatı: https://www.kleinanzeigen.de/s-autos/preis:MIN:MAX/<arama>/k0c216
 SEARCHES = [
     {
         "name": "Nissan Leaf",
+        "ask_soh": True,
         "url": "https://www.kleinanzeigen.de/s-autos/preis::6500/nissan-leaf/k0c216",
         "enabled": True,
     },
     {
         "name": "Renault Zoe",
+        "ask_soh": True,
         "url": "https://www.kleinanzeigen.de/s-autos/preis::7000/renault-zoe/k0c216",
         # Zoe'de satın alınmış batarya şart — metinde bunlardan biri yoksa UYARI düşer
         "require_any": [
@@ -27,16 +36,19 @@ SEARCHES = [
     },
     {
         "name": "Peugeot iOn",
+        "ask_soh": True,
         "url": "https://www.kleinanzeigen.de/s-autos/preis::5000/peugeot-ion/k0c216",
         "enabled": True,
     },
     {
         "name": "Citroën C-Zero",
+        "ask_soh": True,
         "url": "https://www.kleinanzeigen.de/s-autos/preis::5000/citroen-c-zero/k0c216",
         "enabled": True,
     },
     {
         "name": "Mitsubishi i-MiEV",
+        "ask_soh": True,
         "url": "https://www.kleinanzeigen.de/s-autos/preis::5000/mitsubishi-i-miev/k0c216",
         "enabled": True,
     },

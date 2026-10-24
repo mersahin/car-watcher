@@ -4,7 +4,12 @@ on:
   schedule:
     # UTC! Berlin = UTC+1/+2 → yerel ~07:00-23:00 arası, saatte bir
     - cron: "0 5-21 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "Sadece örnek bildirim gönder (butonları denemek için)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -31,7 +36,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python watcher.py
+        run: python watcher.py ${{ inputs.test && '--test' || '' }}
 
       - name: Commit state
         run: |

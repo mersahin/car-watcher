@@ -22,6 +22,11 @@ filtreden geçenleri Telegram'a bildirir. GitHub Actions üzerinde saatte bir ko
 - Kara liste: Unfall/defekt/Export/US-Import/Bastler + **Batteriemiete** (ablöse ibaresi yoksa).
 - Zoe'de "Kaufakku / Batterie inklusive" geçmiyorsa uyarıyla bildirir.
 - Fiyat ≥100 € düşerse tekrar bildirir.
+- Her bildirimde iki buton: **📋 Mesajı kopyala** (satıcıya hazır Almanca soru — müsait mi,
+  batarya satın alınmış mı, SOH kaç — panoya kopyalanır) ve **🔗 İlanı aç**. Kleinanzeigen
+  mesaj kutusunu hazır metinle açan bir link sunmadığı için akış: kopyala → aç → Nachricht → yapıştır.
+  Metinler `config.py` → `MSG_GREETING`, `Q_BATTERY_OWNED`, `Q_SOH`, `MSG_CLOSING`.
+- Butonları denemek için: Actions → car-watcher → Run workflow → **test** kutusunu işaretle.
 - Görülen ilanlar `state.json`'da tutulur ve workflow tarafından repoya commitlenir.
 
 ## Bilinen riskler
