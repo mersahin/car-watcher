@@ -21,6 +21,7 @@ SEARCHES = [
         "require_any": [
             "kaufakku", "batterie inklusive", "inkl. batterie", "inklusive batterie",
             "batterie gekauft", "gekaufte batterie", "eigene batterie", "batterie im kaufpreis",
+            "eigentumsbatterie", "mit batterie verkauft",
         ],
         "enabled": True,
     },
@@ -57,6 +58,8 @@ REJECT_TERMS = [
 REJECT_NEGATIONS = [
     "unfallfrei", "unfall frei", "kein unfall", "keine unfälle",
     "ohne unfall", "unfallfreies",
+    # Detay tablosundaki "Fahrzeugzustand: Unbeschädigtes Fahrzeug" "beschädigt"e takılmasın
+    "unbeschädigt", "nicht beschädigt", "nicht defekt", "kein export", "nicht für export",
 ]
 
 # Kiralık batarya tespiti (Leaf/Zoe için kritik):
@@ -68,4 +71,7 @@ RENT_TERMS = [
 RENT_RESOLVED_TERMS = [
     "abgelöst", "abgelöste", "abloese", "ablösung", "batterie gekauft",
     "kaufakku", "batterie inklusive", "herausgekauft",
+    "eigentumsbatterie", "inkl. batterie", "inklusive batterie", "mit batterie verkauft",
+    "ohne batteriemiete", "ohne eine batteriemiete", "keine batteriemiete",
+    "ohne mietbatterie", "keine mietbatterie", "für eine mietbatterie",
 ]

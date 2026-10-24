@@ -112,20 +112,35 @@ def dist_from_home(plz: str) -> float | None:
 
 # ------------------------------------------------------------------------ parsing
 def parse_search_page(html_text: str) -> list[dict]:
+    # Kleinanzeigen 2026-10'da sonuç kartlarını Tailwind'e taşıdı: "aditem" class'ı yok,
+    # bu yüzden class adlarına değil data-* niteliklerine ve metin kalıplarına bakıyoruz.
     soup = BeautifulSoup(html_text, "html.parser")
     ads = []
-    for art in soup.select("article.aditem[data-adid]"):
+    seen_ids = set()
+    for art in soup.select("article[data-adid]"):
         ad_id = art.get("data-adid", "").strip()
+        if ad_id in seen_ids:  # öne çıkarılan ilanlar listede iki kez geçiyor
+            continue
+        seen_ids.add(ad_id)
         href = art.get("data-href") or ""
-        link_el = art.select_one("h2 a") or art.select_one("a")
-        if not href and link_el:
-            href = link_el.get("href", "")
-        title = link_el.get_text(strip=True) if link_el else "?"
-        price_el = art.select_one("[class*='price']")
-        price = parse_price(price_el.get_text() if price_el else "")
-        loc_el = art.select_one(".aditem-main--top--left")
-        loc = loc_el.get_text(" ", strip=True) if loc_el else ""
-        tags = [t.get_text(strip=True) for t in art.select(".simpletag")]
+        links = [a for a in art.select("a[href]") if a.get_text(strip=True)]
+        if not href and links:
+            href = links[0].get("href", "")
+        # Aynı href'e giden iki link var: fotoğraf (metni foto sayısı) ve başlık — uzun olanı al.
+        same = [a.get_text(" ", strip=True) for a in links if a.get("href") == href]
+        title = max(same, key=len) if same else "?"
+
+        price, loc, tags = None, "", []
+        for el in art.select("p, span, div"):
+            if el.find(["p", "span", "div"]):
+                continue
+            t = el.get_text(" ", strip=True)
+            if price is None and re.fullmatch(r"[\d.]+\s*€(\s*VB)?", t):
+                price = parse_price(t)
+            elif not loc and re.match(r"\d{5}\s", t):
+                loc = t
+            elif re.fullmatch(r"[\d.]+\s*km|EZ\s*\d{1,2}/\d{4}", t):
+                tags.append(t)
         if ad_id and href:
             ads.append(
                 {
@@ -246,6 +261,8 @@ def main() -> int:
     session = requests.Session()
     detail_budget = config.MAX_DETAIL_FETCH_PER_RUN
     new_count = 0
+    empty_searches = 0
+    active = [s for s in config.SEARCHES if s.get("enabled", True)]
 
     try:
         for search in config.SEARCHES:
@@ -254,6 +271,7 @@ def main() -> int:
             log(f"Arama: {search['name']}")
             ads = parse_search_page(fetch(session, search["url"]))
             log(f"  {len(ads)} ilan bulundu")
+            empty_searches += 0 if ads else 1
 
             for ad in ads:
                 if ad["price"] is not None and ad["price"] < config.MIN_PRICE:
@@ -305,6 +323,14 @@ def main() -> int:
             time.sleep(random.uniform(3, 6))
 
         state["blocked_runs"] = 0
+        # Hiçbir aramada ilan yoksa büyük ihtimalle sayfa yapısı değişti, parser kırıldı.
+        if active and empty_searches == len(active):
+            state["empty_runs"] = state.get("empty_runs", 0) + 1
+            if state["empty_runs"] == 3:
+                tg_send("⚠️ Üst üste 3 koşudur hiçbir aramada ilan bulunamadı — "
+                        "Kleinanzeigen sayfa yapısı değişmiş olabilir, parser'a bak.")
+        else:
+            state["empty_runs"] = 0
     except Blocked as e:
         state["blocked_runs"] = state.get("blocked_runs", 0) + 1
         log(f"ENGELLENDİ: {e} (üst üste {state['blocked_runs']}. koşu)")
