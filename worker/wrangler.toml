@@ -1,0 +1,13 @@
+name = "car-watcher-bot"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+
+[vars]
+GITHUB_REPO = "mersahin/car-watcher"
+GITHUB_BRANCH = "main"
+WATCH_WORKFLOW = "watch.yml"
+GEMINI_MODEL = "gemini-3.8-flash"
+
+# Secret'lar (deploy-bot.yml GitHub secret'larından basar, burada değer YOK):
+# TELEGRAM_BOT_TOKEN, ALLOWED_CHAT_ID, GEMINI_API_KEY, GH_TOKEN, WEBHOOK_SECRET

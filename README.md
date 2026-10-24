@@ -41,5 +41,28 @@ filtreden geçenleri Telegram'a bildirir. GitHub Actions üzerinde saatte bir ko
 
 ## Ayar
 
-Aramalar, fiyat tavanları, mesafe limitleri ve kelime listeleri: `config.py`.
-`VW eco up CNG` araması hazır ama kapalı (`enabled: False`).
+Aramalar, fiyat aralıkları, km/yıl sınırları, mesafe limitleri: `searches.json` (0 = sınırsız).
+Bunları Telegram botuna yazarak ya da sesli mesajla da değiştirebilirsin (aşağıda).
+Kelime listeleri ve satıcıya gidecek hazır mesaj: `config.py`.
+
+## Telegram komut botu (isteğe bağlı)
+
+Bota "Zoe'nin tavanını 8000 yap", "Hyundai Ioniq ekle, 120 bin km altı" gibi yazılı ya da
+**sesli** mesaj atarsın; Gemini isteği `searches.json`'a çevirir, değişiklik repoya commitlenir,
+bot ne değiştiğini yazar ve aramayı hemen yeniden başlatır. `/liste`, `/calistir`, `/geri` komutları var.
+
+Akış: Telegram → Cloudflare Worker (`worker/`) → Gemini → GitHub API (`searches.json` commit +
+`watch.yml` tetikleme). Worker yalnızca `TELEGRAM_CHAT_ID`'den gelen mesajları işler ve Telegram'ın
+webhook sırrını doğrular; Gemini'nin çıktısı yazılmadan önce `worker/src/config.js`'te doğrulanır.
+
+Kurulum: aşağıdaki secret'ları ekle, sonra Actions → **deploy-bot** → Run workflow.
+
+| Secret | Nereden |
+|---|---|
+| `GEMINI_API_KEY` | https://aistudio.google.com/apikey |
+| `CLOUDFLARE_ACCOUNT_ID` | dash.cloudflare.com → sağ kenarda *Account ID* |
+| `CLOUDFLARE_API_TOKEN` | My Profile → API Tokens → *Edit Cloudflare Workers* şablonu |
+| `BOT_GITHUB_TOKEN` | GitHub → Settings → Developer settings → Fine-grained token; yalnız bu repo, *Contents: Read and write* + *Actions: Read and write* |
+
+Not: webhook kurulunca bot `getUpdates`'e cevap vermez (Telegram'ın kuralı); chat ID gerekirse
+`@userinfobot` kullan.

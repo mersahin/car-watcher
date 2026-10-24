@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "max_dist_private_km": 100,
+    "max_dist_dealer_km": 0,
+    "min_price": 1000,
+    "extra_reject_terms": []
+  },
+  "searches": [
+    {"name": "Nissan Leaf", "query": "nissan leaf", "min_price": 0, "max_price": 6500, "max_km": 0, "min_year": 0, "battery_check": false, "ask_soh": true, "enabled": true},
+    {"name": "Renault Zoe", "query": "renault zoe", "min_price": 0, "max_price": 7000, "max_km": 0, "min_year": 0, "battery_check": true, "ask_soh": true, "enabled": true},
+    {"name": "Peugeot iOn", "query": "peugeot ion", "min_price": 0, "max_price": 5000, "max_km": 0, "min_year": 0, "battery_check": false, "ask_soh": true, "enabled": true},
+    {"name": "Citroën C-Zero", "query": "citroen c-zero", "min_price": 0, "max_price": 5000, "max_km": 0, "min_year": 0, "battery_check": false, "ask_soh": true, "enabled": true},
+    {"name": "Mitsubishi i-MiEV", "query": "mitsubishi i-miev", "min_price": 0, "max_price": 5000, "max_km": 0, "min_year": 0, "battery_check": false, "ask_soh": true, "enabled": true},
+    {"name": "VW eco up CNG", "query": "vw eco up", "min_price": 0, "max_price": 6500, "max_km": 0, "min_year": 0, "battery_check": false, "ask_soh": false, "enabled": false}
+  ]
+}

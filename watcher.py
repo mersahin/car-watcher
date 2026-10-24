@@ -187,6 +187,19 @@ def parse_search_page(html_text: str) -> list[dict]:
     return ads
 
 
+def within_limits(search: dict, ad: dict) -> bool:
+    """Arama sayfasındaki etiketlerden km / ilk tescil yılı sınırı (0 = sınır yok).
+    Etiket yoksa ilanı elemeyiz — detayda yine filtreler çalışır."""
+    for tag in ad.get("tags", []):
+        km = re.fullmatch(r"([\d.]+)\s*km", tag)
+        if km and search.get("max_km") and int(km.group(1).replace(".", "")) > search["max_km"]:
+            return False
+        ez = re.fullmatch(r"EZ\s*\d{1,2}/(\d{4})", tag)
+        if ez and search.get("min_year") and int(ez.group(1)) < search["min_year"]:
+            return False
+    return True
+
+
 def parse_price(text: str) -> int | None:
     m = re.search(r"([\d.]+)\s*€", text)
     if not m:
@@ -260,7 +273,7 @@ def evaluate(search: dict, ad: dict, detail: dict) -> tuple[str, list[str]]:
     if dist is None:
         notes.append("⚠️ Mesafe hesaplanamadı (PLZ bulunamadı).")
     elif detail["seller"] != "Händler":
-        if dist > config.MAX_DIST_PRIVATE_KM:
+        if config.MAX_DIST_PRIVATE_KM and dist > config.MAX_DIST_PRIVATE_KM:
             return "reject", [f"privat + {round(dist)} km (> {config.MAX_DIST_PRIVATE_KM} km)"]
     elif config.MAX_DIST_DEALER_KM and dist > config.MAX_DIST_DEALER_KM:
         return "reject", [f"händler + {round(dist)} km (> {config.MAX_DIST_DEALER_KM} km)"]
@@ -325,6 +338,8 @@ def main() -> int:
 
             for ad in ads:
                 if ad["price"] is not None and ad["price"] < config.MIN_PRICE:
+                    continue
+                if not within_limits(search, ad):
                     continue
                 prev = seen.get(ad["id"])
 
