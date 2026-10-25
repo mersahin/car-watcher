@@ -335,6 +335,20 @@
    "price": 6300,
    "reason": "kiralık batarya: 'batteriemiete'",
    "title": "Renault ZOE40 Life Motor neu"
+  },
+  "3551199818": {
+   "first_seen": "2026-10-25T08:15:37+00:00",
+   "notified": false,
+   "price": 3999,
+   "reason": "kara liste: 'unfall'",
+   "title": "Citroen C-Zero"
+  },
+  "3551215601": {
+   "first_seen": "2026-10-25T08:15:21+00:00",
+   "notified": false,
+   "price": 3500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Reanult Zoe R240 \"Bastler\""
   }
  },
  "blocked_runs": 0,
