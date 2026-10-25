@@ -363,6 +363,13 @@
    "price": 4500,
    "reason": "kara liste: 'unfall'",
    "title": "Renault ZOE Experience R110 52 kWh, Batteriemiete, Unfallschaden"
+  },
+  "3551774417": {
+   "first_seen": "2026-10-25T13:10:26+00:00",
+   "notified": true,
+   "price": 5490,
+   "reason": "",
+   "title": "Renault ZOE | Kaufbatterie | HU 06/2027 | 22-kW-Laden"
   }
  },
  "blocked_runs": 0,
