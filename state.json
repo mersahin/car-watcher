@@ -349,6 +349,13 @@
    "price": 3500,
    "reason": "kara liste: 'beschädigt'",
    "title": "Reanult Zoe R240 \"Bastler\""
+  },
+  "3551275725": {
+   "first_seen": "2026-10-25T09:12:15+00:00",
+   "notified": false,
+   "price": 4500,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault ZOE Experience R110 52 kWh, Batteriemiete, Unfallschaden"
   }
  },
  "blocked_runs": 0,
