@@ -321,6 +321,20 @@
    "price": 6000,
    "reason": "privat + 583 km (> 100 km)",
    "title": "Renault ZOE Life Life"
+  },
+  "3551096145": {
+   "first_seen": "2026-10-25T05:11:59+00:00",
+   "notified": false,
+   "price": 2800,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE ZE – Elektroauto zu verkaufen"
+  },
+  "3551139969": {
+   "first_seen": "2026-10-25T05:11:54+00:00",
+   "notified": false,
+   "price": 6300,
+   "reason": "kiralık batarya: 'batteriemiete'",
+   "title": "Renault ZOE40 Life Motor neu"
   }
  },
  "blocked_runs": 0,
