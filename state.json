@@ -308,6 +308,13 @@
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault Zoe ph1"
   },
+  "3550294448": {
+   "first_seen": "2026-10-25T11:16:10+00:00",
+   "notified": false,
+   "price": 9750,
+   "reason": "kara liste: 'export'",
+   "title": "Nissan Micra 1.0 X-Tron 5TÜR+NAVI+PDC+SHZ+MFL+TEMP+APPL"
+  },
   "3550537575": {
    "first_seen": "2026-10-24T17:17:43+00:00",
    "notified": false,
