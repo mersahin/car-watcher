@@ -53,11 +53,14 @@ async function handle(msg, env) {
 
   const summary = diff.join("\n");
   await writeConfig(env, next, sha, `bot: ${stripTags(summary).slice(0, 200)}`);
-  await dispatchWatch(env);
-  return tg(
-    env,
-    `${heard}✅ Güncellendi:\n${summary}\n\n▶️ Yeni kriterlerle arama başlatıldı. Geri almak için /geri`,
-  );
+  // Kayıt yapıldı; aramayı hemen başlatamamak onu geçersiz kılmaz, saatlik koşu zaten alır.
+  let started = "▶️ Yeni kriterlerle arama başlatıldı.";
+  try {
+    await dispatchWatch(env);
+  } catch (e) {
+    started = `⚠️ Kaydedildi ama arama hemen başlatılamadı, bir sonraki saatlik koşuda uygulanacak.\n<i>${escapeHtml(e.message).slice(0, 200)}</i>`;
+  }
+  return tg(env, `${heard}✅ Güncellendi:\n${summary}\n\n${started} Geri almak için /geri`);
 }
 
 const HELP = `🚗 <b>car-watcher botu</b>
@@ -95,6 +98,7 @@ Ayar alanları:
 Kurallar:
 - Sadece istenen şeyi değiştir, gerisini AYNEN koru.
 - "8 bin", "sekiz bin", "8k" = 8000. "120 bin km" = 120000.
+- Yaş → min_year: "en fazla 5 yaşında / 5 yaşından genç" = bugünün yılı − 5 (2026'da 2021). Yılı mutlaka verilen bugünün tarihinden hesapla.
 - Yeni araç eklerken mantıklı varsayılanlar kullan (min_price 0, max_km 0, min_year 0, enabled true).
 - İstek bir ayar değişikliği değilse (soru, selam, belirsiz) changed=false yap, config'i olduğu gibi döndür ve reply'da kısa Türkçe cevap ver ya da netleştirici soru sor.
 - reply: yaptığın değişikliğin tek cümlelik Türkçe özeti.
@@ -144,7 +148,8 @@ const RESPONSE_SCHEMA = {
 };
 
 async function askGemini(env, config, text, audio) {
-  const parts = [{ text: `Mevcut ayarlar:\n${JSON.stringify(config, null, 1)}` }];
+  const today = new Date().toISOString().slice(0, 10);
+  const parts = [{ text: `Bugünün tarihi: ${today}\nMevcut ayarlar:\n${JSON.stringify(config, null, 1)}` }];
   if (text) parts.push({ text: `Kullanıcının mesajı: ${text}` });
   if (audio) {
     parts.push({ text: "Kullanıcının sesli mesajı ekte:" });

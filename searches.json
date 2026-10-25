@@ -78,7 +78,7 @@
       "min_price": 0,
       "max_price": 10000,
       "max_km": 0,
-      "min_year": 2019,
+      "min_year": 2021,
       "battery_check": false,
       "ask_soh": false,
       "enabled": true
