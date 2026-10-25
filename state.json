@@ -370,6 +370,13 @@
    "price": 5490,
    "reason": "",
    "title": "Renault ZOE | Kaufbatterie | HU 06/2027 | 22-kW-Laden"
+  },
+  "3552407642": {
+   "first_seen": "2026-10-25T19:09:13+00:00",
+   "notified": true,
+   "price": 1600,
+   "reason": "",
+   "title": "Nissan micra"
   }
  },
  "blocked_runs": 0,
