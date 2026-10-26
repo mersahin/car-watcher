@@ -402,9 +402,16 @@
   "3552672578": {
    "first_seen": "2026-10-26T07:31:22+00:00",
    "notified": true,
-   "price": 3900,
+   "price": 3200,
    "reason": "",
    "title": "Renault Zoe"
+  },
+  "3553401382": {
+   "first_seen": "2026-10-26T19:12:10+00:00",
+   "notified": false,
+   "price": 6000,
+   "reason": "privat + 145 km (> 100 km)",
+   "title": "Renault Zoe 41kWh 2019"
   }
  },
  "blocked_runs": 0,
