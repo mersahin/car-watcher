@@ -81,7 +81,7 @@
       "min_year": 2021,
       "battery_check": false,
       "ask_soh": false,
-      "enabled": true
+      "enabled": false
     }
   ]
 }
