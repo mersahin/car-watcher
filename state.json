@@ -384,6 +384,13 @@
    "price": 3750,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault Zoe an Bastler"
+  },
+  "3552672578": {
+   "first_seen": "2026-10-26T07:31:22+00:00",
+   "notified": true,
+   "price": 4490,
+   "reason": "",
+   "title": "Renault Zoe"
   }
  },
  "blocked_runs": 0,
