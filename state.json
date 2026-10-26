@@ -259,6 +259,13 @@
    "reason": "kara liste: 'defekt'",
    "title": "Mitsubishi i-Miev Elektroauto"
   },
+  "3548667841": {
+   "first_seen": "2026-10-26T11:13:00+00:00",
+   "notified": false,
+   "price": 7000,
+   "reason": "kiralık batarya: 'batteriemiete'",
+   "title": "Renault zoe LIFE R110 Z.E. 40 zzgl. Batteriemiete"
+  },
   "3549046404": {
    "first_seen": "2026-10-24T17:16:28+00:00",
    "notified": false,
