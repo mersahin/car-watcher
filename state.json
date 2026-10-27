@@ -210,6 +210,13 @@
    "reason": "privat + 371 km (> 100 km)",
    "title": "Citroen C-ZERO Weiss"
   },
+  "3542803859": {
+   "first_seen": "2026-10-27T08:17:47+00:00",
+   "notified": true,
+   "price": 6990,
+   "reason": "",
+   "title": "Renault ZOE Kaufbatterie inklusive."
+  },
   "3542869998": {
    "first_seen": "2026-10-24T18:14:16+00:00",
    "notified": false,
@@ -412,6 +419,13 @@
    "price": 6000,
    "reason": "privat + 145 km (> 100 km)",
    "title": "Renault Zoe 41kWh 2019"
+  },
+  "3553636165": {
+   "first_seen": "2026-10-27T08:17:39+00:00",
+   "notified": false,
+   "price": 6000,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault Renault Zoe Zen R240 - Kaufbatterie"
   }
  },
  "blocked_runs": 0,
