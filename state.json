@@ -461,6 +461,13 @@
    "price": 5990,
    "reason": "kara liste: 'export'",
    "title": "Renault ZOE Zoe Life"
+  },
+  "3554242841": {
+   "first_seen": "2026-10-27T18:12:03+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "privat + 179 km (> 100 km)",
+   "title": "Renault Zoe Intens | 22-kWh-Batterie - Kaufakku!"
   }
  },
  "blocked_runs": 0,
