@@ -489,6 +489,13 @@
    "price": 6500,
    "reason": "privat + 369 km (> 100 km)",
    "title": "?"
+  },
+  "3555000711": {
+   "first_seen": "2026-10-28T16:11:32+00:00",
+   "notified": false,
+   "price": 3000,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault Zoe Life R240 mit Mitakku aus 1.Hand"
   }
  },
  "blocked_runs": 0,
