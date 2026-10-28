@@ -468,6 +468,20 @@
    "price": 5500,
    "reason": "privat + 179 km (> 100 km)",
    "title": "Renault Zoe Intens | 22-kWh-Batterie - Kaufakku!"
+  },
+  "3554402390": {
+   "first_seen": "2026-10-28T05:10:32+00:00",
+   "notified": false,
+   "price": 5000,
+   "reason": "kara liste: 'unfall'",
+   "title": "Suche Renault Zoe nach einem Unfall oder mit einem Defekt."
+  },
+  "3554403362": {
+   "first_seen": "2026-10-28T05:10:26+00:00",
+   "notified": false,
+   "price": 4999,
+   "reason": "kara liste: 'unfall'",
+   "title": "Suche Renault Zoe nach Unfall oder mit Defekt.!!!!"
   }
  },
  "blocked_runs": 0,
