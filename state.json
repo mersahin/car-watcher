@@ -482,6 +482,13 @@
    "price": 4999,
    "reason": "kara liste: 'unfall'",
    "title": "Suche Renault Zoe nach Unfall oder mit Defekt.!!!!"
+  },
+  "3554489133": {
+   "first_seen": "2026-10-28T07:11:18+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 369 km (> 100 km)",
+   "title": "?"
   }
  },
  "blocked_runs": 0,
