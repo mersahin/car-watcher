@@ -496,6 +496,13 @@
    "price": 3000,
    "reason": "kara liste: 'unfall'",
    "title": "Renault Zoe Life R240 mit Mitakku aus 1.Hand"
+  },
+  "3555045833": {
+   "first_seen": "2026-10-28T17:09:33+00:00",
+   "notified": false,
+   "price": 6900,
+   "reason": "kiralık batarya: 'batteriemiete'",
+   "title": "Renault Zoe R110 Z.E 50 Life (Batteriemiete) TEXT BIS ENDE LESEN!"
   }
  },
  "blocked_runs": 0,
