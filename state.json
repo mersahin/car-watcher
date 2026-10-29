@@ -210,6 +210,13 @@
    "reason": "privat + 371 km (> 100 km)",
    "title": "Citroen C-ZERO Weiss"
   },
+  "3542426418": {
+   "first_seen": "2026-10-29T19:08:59+00:00",
+   "notified": false,
+   "price": 4650,
+   "reason": "privat + 381 km (> 100 km)",
+   "title": "Citroën C-Zero Elektro – TÜV neu – Neue Ganzjahresreifen"
+  },
   "3542803859": {
    "first_seen": "2026-10-27T08:17:47+00:00",
    "notified": true,
@@ -524,6 +531,13 @@
    "price": 5000,
    "reason": "privat + 297 km (> 100 km)",
    "title": "Peugeot iOn - -Neuer TÜV, Fahrbereit"
+  },
+  "3556017142": {
+   "first_seen": "2026-10-29T19:08:43+00:00",
+   "notified": false,
+   "price": 3690,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Intens Intens"
   }
  },
  "blocked_runs": 0,
