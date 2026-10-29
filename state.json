@@ -503,6 +503,13 @@
    "price": 6900,
    "reason": "kiralık batarya: 'batteriemiete'",
    "title": "Renault Zoe R110 Z.E 50 Life (Batteriemiete) TEXT BIS ENDE LESEN!"
+  },
+  "3555354793": {
+   "first_seen": "2026-10-29T06:16:45+00:00",
+   "notified": false,
+   "price": 2500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe Elektro 2014 – Ohne Akku – Defekt – Bastlerfahrzeug"
   }
  },
  "blocked_runs": 0,
