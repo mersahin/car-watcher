@@ -510,6 +510,13 @@
    "price": 2500,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault Zoe Elektro 2014 – Ohne Akku – Defekt – Bastlerfahrzeug"
+  },
+  "3555447898": {
+   "first_seen": "2026-10-29T09:11:39+00:00",
+   "notified": false,
+   "price": 4800,
+   "reason": "privat + 392 km (> 100 km)",
+   "title": "Super toller Stadt Flitzer Citroen C- zero"
   }
  },
  "blocked_runs": 0,
