@@ -133,6 +133,13 @@
    "reason": "",
    "title": "Renault ZOE Zoe Intens#R.Cam#Tempomat#NAVI#KeylesGO"
   },
+  "3534343053": {
+   "first_seen": "2026-10-30T07:10:45+00:00",
+   "notified": false,
+   "price": 6900,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault ZOE Zoe Experience Mietbatterie"
+  },
   "3536286437": {
    "first_seen": "2026-10-24T18:15:04+00:00",
    "notified": false,
@@ -545,6 +552,13 @@
    "price": 3000,
    "reason": "kara liste: 'unfall'",
    "title": "Renault Zoe defekt"
+  },
+  "3556207888": {
+   "first_seen": "2026-10-30T07:10:53+00:00",
+   "notified": true,
+   "price": 4000,
+   "reason": "",
+   "title": "Renault Zoe zum fairen realistischen Preis"
   }
  },
  "blocked_runs": 0,
