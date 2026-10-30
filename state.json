@@ -559,6 +559,20 @@
    "price": 4000,
    "reason": "",
    "title": "Renault Zoe zum fairen realistischen Preis"
+  },
+  "3556738251": {
+   "first_seen": "2026-10-30T17:08:35+00:00",
+   "notified": false,
+   "price": 1499,
+   "reason": "privat + 165 km (> 100 km)",
+   "title": "Renault Zoe Elektro"
+  },
+  "3556777326": {
+   "first_seen": "2026-10-30T17:08:28+00:00",
+   "notified": false,
+   "price": 4999,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renaut Zoe inkl. Batterie"
   }
  },
  "blocked_runs": 0,
