@@ -573,6 +573,20 @@
    "price": 4999,
    "reason": "kara liste: 'unfall'",
    "title": "Renaut Zoe inkl. Batterie"
+  },
+  "3556968295": {
+   "first_seen": "2026-10-31T05:08:28+00:00",
+   "notified": false,
+   "price": 4550,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault Zoe Elektro /Batterie gekauft !!"
+  },
+  "3557011574": {
+   "first_seen": "2026-10-31T05:08:22+00:00",
+   "notified": false,
+   "price": 5725,
+   "reason": "privat + 173 km (> 100 km)",
+   "title": "Renault ZOE R90 Z.E. 40"
   }
  },
  "blocked_runs": 0,
