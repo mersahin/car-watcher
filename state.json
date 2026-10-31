@@ -629,6 +629,13 @@
    "price": 5500,
    "reason": "privat + 319 km (> 100 km)",
    "title": "Renault Zoe eigene Batterie"
+  },
+  "3557885373": {
+   "first_seen": "2026-10-31T19:06:46+00:00",
+   "notified": false,
+   "price": 1650,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Life 43 kW Comfort"
   }
  },
  "blocked_runs": 0,
