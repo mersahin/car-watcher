@@ -608,6 +608,13 @@
    "price": 6200,
    "reason": "kiralık batarya: 'mietbatterie'",
    "title": "Renault Zoe TÜV neu, 20kWh, 8-fach bereift"
+  },
+  "3557485998": {
+   "first_seen": "2026-10-31T13:07:35+00:00",
+   "notified": false,
+   "price": 6000,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE | 90.000 km | Defekt, aber fahrbereit Kaufbatterie"
   }
  },
  "blocked_runs": 0,
