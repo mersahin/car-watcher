@@ -601,6 +601,13 @@
    "price": 6900,
    "reason": "privat + 336 km (> 100 km)",
    "title": "Renault Zoe ZE40- Große41 kWH Batterie inclusive-TÜV04/28"
+  },
+  "3557215792": {
+   "first_seen": "2026-10-31T10:08:24+00:00",
+   "notified": false,
+   "price": 6200,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault Zoe TÜV neu, 20kWh, 8-fach bereift"
   }
  },
  "blocked_runs": 0,
