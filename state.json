@@ -615,6 +615,13 @@
    "price": 6000,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE | 90.000 km | Defekt, aber fahrbereit Kaufbatterie"
+  },
+  "3557517443": {
+   "first_seen": "2026-10-31T14:07:38+00:00",
+   "notified": false,
+   "price": 6850,
+   "reason": "kiralık batarya: 'batteriemiete'",
+   "title": "Zoe Z.E.40, 80 kW/109 PS, Batt. 41 kWh gemietet, Rückfahrkamera"
   }
  },
  "blocked_runs": 0,
