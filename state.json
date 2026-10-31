@@ -594,6 +594,13 @@
    "price": 5725,
    "reason": "privat + 173 km (> 100 km)",
    "title": "Renault ZOE R90 Z.E. 40"
+  },
+  "3557094071": {
+   "first_seen": "2026-10-31T08:10:46+00:00",
+   "notified": false,
+   "price": 6900,
+   "reason": "privat + 336 km (> 100 km)",
+   "title": "Renault Zoe ZE40- Große41 kWH Batterie inclusive-TÜV04/28"
   }
  },
  "blocked_runs": 0,
