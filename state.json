@@ -622,6 +622,13 @@
    "price": 6850,
    "reason": "kiralık batarya: 'batteriemiete'",
    "title": "Zoe Z.E.40, 80 kW/109 PS, Batt. 41 kWh gemietet, Rückfahrkamera"
+  },
+  "3557695780": {
+   "first_seen": "2026-10-31T16:08:29+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "privat + 319 km (> 100 km)",
+   "title": "Renault Zoe eigene Batterie"
   }
  },
  "blocked_runs": 0,
