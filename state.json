@@ -636,6 +636,13 @@
    "price": 1650,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Life 43 kW Comfort"
+  },
+  "3557935805": {
+   "first_seen": "2026-10-31T20:07:55+00:00",
+   "notified": false,
+   "price": 6000,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault Zoe mit Defekt - suche"
   }
  },
  "blocked_runs": 0,
