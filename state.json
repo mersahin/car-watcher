@@ -643,6 +643,13 @@
    "price": 6000,
    "reason": "kara liste: 'unfall'",
    "title": "Renault Zoe mit Defekt - suche"
+  },
+  "3557998994": {
+   "first_seen": "2026-11-01T05:08:53+00:00",
+   "notified": false,
+   "price": 4450,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault ZOE Intens Tüv NEU inkl. Batterie"
   }
  },
  "blocked_runs": 0,
