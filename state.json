@@ -664,6 +664,13 @@
    "price": 4700,
    "reason": "privat + 141 km (> 100 km)",
    "title": "Citroen C-Zero Elektroauto"
+  },
+  "3558982251": {
+   "first_seen": "2026-11-01T17:06:47+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "privat + 204 km (> 100 km)",
+   "title": "Renault Zoe Elektroauto"
   }
  },
  "blocked_runs": 0,
