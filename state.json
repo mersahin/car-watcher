@@ -650,6 +650,20 @@
    "price": 4450,
    "reason": "kara liste: 'defekt'",
    "title": "Renault ZOE Intens Tüv NEU inkl. Batterie"
+  },
+  "3558440638": {
+   "first_seen": "2026-11-01T16:08:24+00:00",
+   "notified": false,
+   "price": 4200,
+   "reason": "privat + 466 km (> 100 km)",
+   "title": "Renault ZOE 2015"
+  },
+  "3558916767": {
+   "first_seen": "2026-11-01T16:08:39+00:00",
+   "notified": false,
+   "price": 4700,
+   "reason": "privat + 141 km (> 100 km)",
+   "title": "Citroen C-Zero Elektroauto"
   }
  },
  "blocked_runs": 0,
