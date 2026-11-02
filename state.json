@@ -671,6 +671,20 @@
    "price": 5500,
    "reason": "privat + 204 km (> 100 km)",
    "title": "Renault Zoe Elektroauto"
+  },
+  "3559295732": {
+   "first_seen": "2026-11-02T05:10:08+00:00",
+   "notified": false,
+   "price": 5900,
+   "reason": "privat + 334 km (> 100 km)",
+   "title": "Renault Renault ZOE Intens Q210 |43kW AC| AHK AKKU incl."
+  },
+  "3559325127": {
+   "first_seen": "2026-11-02T05:10:03+00:00",
+   "notified": false,
+   "price": 7000,
+   "reason": "privat + 155 km (> 100 km)",
+   "title": "Renault Zoe voll Elektrik"
   }
  },
  "blocked_runs": 0,
