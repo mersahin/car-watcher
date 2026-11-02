@@ -136,7 +136,7 @@
   "3530884711": {
    "first_seen": "2026-10-31T07:08:22+00:00",
    "notified": true,
-   "price": 5200,
+   "price": 5000,
    "reason": "",
    "title": "Nissan Leaf Acenta Privatverkauf"
   },
@@ -685,6 +685,13 @@
    "price": 7000,
    "reason": "privat + 155 km (> 100 km)",
    "title": "Renault Zoe voll Elektrik"
+  },
+  "3559392313": {
+   "first_seen": "2026-11-02T08:13:30+00:00",
+   "notified": false,
+   "price": 4500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Life (inklusiv Batterie) 22kwh"
   }
  },
  "blocked_runs": 0,
