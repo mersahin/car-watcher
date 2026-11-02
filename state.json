@@ -692,6 +692,13 @@
    "price": 4500,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Life (inklusiv Batterie) 22kwh"
+  },
+  "3559655258": {
+   "first_seen": "2026-11-02T13:10:22+00:00",
+   "notified": true,
+   "price": 5000,
+   "reason": "",
+   "title": "Renault ZOE Life R90 Life"
   }
  },
  "blocked_runs": 0,
