@@ -706,6 +706,13 @@
    "price": 5799,
    "reason": "kara liste: 'export'",
    "title": "Renault ZOE Life Wärmepumpe 40AH Batterie"
+  },
+  "3560172326": {
+   "first_seen": "2026-11-02T21:08:43+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 305 km (> 100 km)",
+   "title": "Verkaufe Renault Zoe"
   }
  },
  "blocked_runs": 0,
