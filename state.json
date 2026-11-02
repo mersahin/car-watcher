@@ -699,6 +699,13 @@
    "price": 5000,
    "reason": "",
    "title": "Renault ZOE Life R90 Life"
+  },
+  "3560140505": {
+   "first_seen": "2026-11-02T20:08:38+00:00",
+   "notified": false,
+   "price": 5799,
+   "reason": "kara liste: 'export'",
+   "title": "Renault ZOE Life Wärmepumpe 40AH Batterie"
   }
  },
  "blocked_runs": 0,
