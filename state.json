@@ -734,6 +734,13 @@
    "price": 1200,
    "reason": "kara liste: 'export'",
    "title": "Citroen C Zero Elektroauto Automatik Klima Export Händler"
+  },
+  "3560799256": {
+   "first_seen": "2026-11-03T16:10:05+00:00",
+   "notified": false,
+   "price": 4750,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Intens*Klima*Navi*PDC*Kamera*Inkl.Batterie*"
   }
  },
  "blocked_runs": 0,
