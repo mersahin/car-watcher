@@ -720,6 +720,13 @@
    "price": 4199,
    "reason": "",
    "title": "Peugeot ion Tüv neu"
+  },
+  "3560600206": {
+   "first_seen": "2026-11-03T13:09:26+00:00",
+   "notified": false,
+   "price": 1100,
+   "reason": "privat + 269 km (> 100 km)",
+   "title": "Mitsubishi i-MiEV - -"
   }
  },
  "blocked_runs": 0,
