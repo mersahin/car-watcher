@@ -713,6 +713,13 @@
    "price": 6500,
    "reason": "privat + 305 km (> 100 km)",
    "title": "Verkaufe Renault Zoe"
+  },
+  "3560546486": {
+   "first_seen": "2026-11-03T12:12:29+00:00",
+   "notified": true,
+   "price": 4199,
+   "reason": "",
+   "title": "Peugeot ion Tüv neu"
   }
  },
  "blocked_runs": 0,
