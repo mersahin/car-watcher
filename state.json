@@ -727,6 +727,13 @@
    "price": 1100,
    "reason": "privat + 269 km (> 100 km)",
    "title": "Mitsubishi i-MiEV - -"
+  },
+  "3560701148": {
+   "first_seen": "2026-11-03T15:08:52+00:00",
+   "notified": false,
+   "price": 1200,
+   "reason": "kara liste: 'export'",
+   "title": "Citroen C Zero Elektroauto Automatik Klima Export Händler"
   }
  },
  "blocked_runs": 0,
