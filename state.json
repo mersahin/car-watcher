@@ -748,6 +748,20 @@
    "price": 4750,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Intens*Klima*Navi*PDC*Kamera*Inkl.Batterie*"
+  },
+  "3561081784": {
+   "first_seen": "2026-11-04T05:09:13+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 152 km (> 100 km)",
+   "title": "Renault ZOE Intens R90 inkl. Batterie 41 kWh"
+  },
+  "3561132865": {
+   "first_seen": "2026-11-04T05:09:06+00:00",
+   "notified": false,
+   "price": 3700,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault Zoe R135 / ZE50 Intens Unfallschaden"
   }
  },
  "blocked_runs": 0,
