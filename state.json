@@ -762,6 +762,20 @@
    "price": 3700,
    "reason": "kara liste: 'unfall'",
    "title": "Renault Zoe R135 / ZE50 Intens Unfallschaden"
+  },
+  "3561219280": {
+   "first_seen": "2026-11-04T09:09:38+00:00",
+   "notified": true,
+   "price": 4600,
+   "reason": "",
+   "title": "Nissan Leaf Acenta 24 kWh"
+  },
+  "3561227050": {
+   "first_seen": "2026-11-04T09:09:55+00:00",
+   "notified": true,
+   "price": 2600,
+   "reason": "",
+   "title": "Peugeot iOn Active Active"
   }
  },
  "blocked_runs": 0,
