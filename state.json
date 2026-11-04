@@ -790,6 +790,13 @@
    "price": 2900,
    "reason": "",
    "title": "Peugeot iOn Elektro – TÜV 05/2028 – Neue Allwetterreifen. 2.Hand"
+  },
+  "3561581469": {
+   "first_seen": "2026-11-04T15:09:42+00:00",
+   "notified": false,
+   "price": 5899,
+   "reason": "privat + 543 km (> 100 km)",
+   "title": "Renault ZOE Life Life"
   }
  },
  "blocked_runs": 0,
