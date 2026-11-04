@@ -811,6 +811,13 @@
    "price": 4999,
    "reason": "privat + 152 km (> 100 km)",
    "title": "Citroën C-Zero Elektroauto weiß"
+  },
+  "3561855193": {
+   "first_seen": "2026-11-04T20:09:20+00:00",
+   "notified": true,
+   "price": 6400,
+   "reason": "",
+   "title": "Renault ZOE Zoe Intens"
   }
  },
  "blocked_runs": 0,
