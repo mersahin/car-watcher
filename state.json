@@ -818,6 +818,13 @@
    "price": 6400,
    "reason": "",
    "title": "Renault ZOE Zoe Intens"
+  },
+  "3562622660": {
+   "first_seen": "2026-11-05T18:11:00+00:00",
+   "notified": false,
+   "price": 4200,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Zen Q210 Klima defekt"
   }
  },
  "blocked_runs": 0,
