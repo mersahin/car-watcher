@@ -825,6 +825,13 @@
    "price": 4200,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Zen Q210 Klima defekt"
+  },
+  "3562659739": {
+   "first_seen": "2026-11-05T19:07:04+00:00",
+   "notified": false,
+   "price": 5900,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault Zoe 22kw Mietbatterie bj.2019"
   }
  },
  "blocked_runs": 0,
