@@ -839,6 +839,13 @@
    "price": 5900,
    "reason": "kiralık batarya: 'mietbatterie'",
    "title": "Renault Zoe 22kw Mietbatterie bj.2019"
+  },
+  "3563354451": {
+   "first_seen": "2026-11-06T15:09:26+00:00",
+   "notified": true,
+   "price": 5500,
+   "reason": "",
+   "title": "Nissan Leaf Tekna"
   }
  },
  "blocked_runs": 0,
