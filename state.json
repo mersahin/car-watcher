@@ -895,6 +895,13 @@
    "price": 4500,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault Zoe"
+  },
+  "3564602539": {
+   "first_seen": "2026-11-07T18:09:03+00:00",
+   "notified": true,
+   "price": 6800,
+   "reason": "",
+   "title": "Renault ZOE Intens"
   }
  },
  "blocked_runs": 0,
