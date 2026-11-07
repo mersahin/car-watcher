@@ -874,6 +874,13 @@
    "price": 2400,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault Zoe Elektro defekt"
+  },
+  "3564378819": {
+   "first_seen": "2026-11-07T15:07:14+00:00",
+   "notified": false,
+   "price": 3000,
+   "reason": "kara liste: 'unfall'",
+   "title": "SUCHE Renault ZOE / Defekt / Unfall / Schlachter"
   }
  },
  "blocked_runs": 0,
