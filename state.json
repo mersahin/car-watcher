@@ -867,6 +867,13 @@
    "price": 2400,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Life mit Batterie Life"
+  },
+  "3564241544": {
+   "first_seen": "2026-11-07T14:07:43+00:00",
+   "notified": false,
+   "price": 2400,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe Elektro defekt"
   }
  },
  "blocked_runs": 0,
