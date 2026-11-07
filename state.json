@@ -881,6 +881,20 @@
    "price": 3000,
    "reason": "kara liste: 'unfall'",
    "title": "SUCHE Renault ZOE / Defekt / Unfall / Schlachter"
+  },
+  "3564441301": {
+   "first_seen": "2026-11-07T16:08:21+00:00",
+   "notified": false,
+   "price": 4500,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault Zoe Elektro, Mietbatterie, top Zustand Bj. 2015, 99500km"
+  },
+  "3564466711": {
+   "first_seen": "2026-11-07T16:08:16+00:00",
+   "notified": false,
+   "price": 4500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe"
   }
  },
  "blocked_runs": 0,
