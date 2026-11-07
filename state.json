@@ -853,6 +853,13 @@
    "price": 5500,
    "reason": "",
    "title": "Nissan Leaf Tekna"
+  },
+  "3564072521": {
+   "first_seen": "2026-11-07T12:11:15+00:00",
+   "notified": false,
+   "price": 4200,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe Elektro | Mietbatterie | Bastler/Export"
   }
  },
  "blocked_runs": 0,
