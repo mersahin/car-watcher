@@ -916,6 +916,13 @@
    "price": 4000,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE 01/2019 mit Mängeln zum Festpreis ! Keine Verhandlung"
+  },
+  "3565471772": {
+   "first_seen": "2026-11-08T14:07:42+00:00",
+   "notified": false,
+   "price": 4999,
+   "reason": "privat + 327 km (> 100 km)",
+   "title": "Elektroauto Renault Zoe"
   }
  },
  "blocked_runs": 0,
