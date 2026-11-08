@@ -909,6 +909,13 @@
    "price": 5700,
    "reason": "privat + 517 km (> 100 km)",
    "title": "Renault ZOE Intens Q210 - inklusive Batterie + SOH 92%"
+  },
+  "3565117255": {
+   "first_seen": "2026-11-08T11:07:01+00:00",
+   "notified": false,
+   "price": 4000,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE 01/2019 mit Mängeln zum Festpreis ! Keine Verhandlung"
   }
  },
  "blocked_runs": 0,
