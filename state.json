@@ -944,6 +944,20 @@
    "price": 3900,
    "reason": "kara liste: 'defekt'",
    "title": "Renault Zoe Elektroauto weiß"
+  },
+  "3566740740": {
+   "first_seen": "2026-11-09T16:09:50+00:00",
+   "notified": false,
+   "price": 4899,
+   "reason": "privat + 313 km (> 100 km)",
+   "title": "Suche Renault ZOE für die Familie"
+  },
+  "3566796133": {
+   "first_seen": "2026-11-09T16:10:09+00:00",
+   "notified": false,
+   "price": 1300,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Mitsubishi i-MiEV Bastler Läuft nicht Elektro"
   }
  },
  "blocked_runs": 0,
