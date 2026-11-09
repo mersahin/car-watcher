@@ -930,6 +930,13 @@
    "price": 3500,
    "reason": "privat + 478 km (> 100 km)",
    "title": "Nisan Murano Z 50"
+  },
+  "3566465605": {
+   "first_seen": "2026-11-09T11:08:29+00:00",
+   "notified": false,
+   "price": 5490,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault ZOE Zoe Life*MIETBATTERIE*2019*75 TKM*M+S*"
   }
  },
  "blocked_runs": 0,
