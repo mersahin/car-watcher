@@ -958,6 +958,13 @@
    "price": 1300,
    "reason": "kara liste: 'beschädigt'",
    "title": "Mitsubishi i-MiEV Bastler Läuft nicht Elektro"
+  },
+  "3567067772": {
+   "first_seen": "2026-11-09T21:07:53+00:00",
+   "notified": false,
+   "price": 1800,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Life , für Bastler lädt nicht,5AQ 601"
   }
  },
  "blocked_runs": 0,
