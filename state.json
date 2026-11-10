@@ -972,6 +972,13 @@
    "price": 4500,
    "reason": "kara liste: 'defekt'",
    "title": "Renault Zoe ZE 40 Bose-Edition, lädt nicht, defekt!!!"
+  },
+  "3567330232": {
+   "first_seen": "2026-11-10T11:08:18+00:00",
+   "notified": false,
+   "price": 4999,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Suche Renault ZOE"
   }
  },
  "blocked_runs": 0,
