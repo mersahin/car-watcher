@@ -979,6 +979,13 @@
    "price": 4999,
    "reason": "kara liste: 'beschädigt'",
    "title": "Suche Renault ZOE"
+  },
+  "3567786389": {
+   "first_seen": "2026-11-10T18:08:59+00:00",
+   "notified": false,
+   "price": 1200,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE - mit Mietbatterie zur Verwertung"
   }
  },
  "blocked_runs": 0,
