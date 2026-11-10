@@ -986,6 +986,13 @@
    "price": 1200,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE - mit Mietbatterie zur Verwertung"
+  },
+  "3567947456": {
+   "first_seen": "2026-11-10T21:08:03+00:00",
+   "notified": true,
+   "price": 4800,
+   "reason": "",
+   "title": "Renault Zoe 22 kWh (Batterie Eigentum)"
   }
  },
  "blocked_runs": 0,
