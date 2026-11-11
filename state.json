@@ -1056,6 +1056,13 @@
    "price": 3500,
    "reason": "privat + 221 km (> 100 km)",
    "title": "Renault Zoe E-Auto"
+  },
+  "3568682803": {
+   "first_seen": "2026-11-11T18:08:53+00:00",
+   "notified": false,
+   "price": 4500,
+   "reason": "kara liste: 'ersatzteil'",
+   "title": "Nissan Leaf 24 kWh Elektroauto - TÜV 08/2028"
   }
  },
  "blocked_runs": 0,
