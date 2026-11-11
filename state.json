@@ -1035,6 +1035,27 @@
    "price": 6980,
    "reason": "kara liste: 'unfall'",
    "title": "Renault ZOE Experience RENT-BATTERY 80kw 52KWH"
+  },
+  "3568522345": {
+   "first_seen": "2026-11-11T16:09:33+00:00",
+   "notified": false,
+   "price": 5000,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault Zoe Z.E. EZ 04.2019 - Mietbatterie"
+  },
+  "3568541599": {
+   "first_seen": "2026-11-11T16:09:13+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 276 km (> 100 km)",
+   "title": "Nissan Leaf Acenta 30kWh Battery Acenta"
+  },
+  "3568561278": {
+   "first_seen": "2026-11-11T16:09:25+00:00",
+   "notified": false,
+   "price": 3500,
+   "reason": "privat + 221 km (> 100 km)",
+   "title": "Renault Zoe E-Auto"
   }
  },
  "blocked_runs": 0,
