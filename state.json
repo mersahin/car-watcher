@@ -993,6 +993,13 @@
    "price": 4800,
    "reason": "",
    "title": "Renault Zoe 22 kWh (Batterie Eigentum)"
+  },
+  "3567982388": {
+   "first_seen": "2026-11-11T05:08:52+00:00",
+   "notified": true,
+   "price": 6500,
+   "reason": "",
+   "title": "Renault Kangoo Z.E. Kastenwagen (Elektro)"
   }
  },
  "blocked_runs": 0,
