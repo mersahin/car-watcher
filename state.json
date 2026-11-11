@@ -1014,6 +1014,13 @@
    "price": 5490,
    "reason": "",
    "title": "Renault ZOE Batterie inklusive 1. Hand Navi Bluetooth TÜV"
+  },
+  "3568101822": {
+   "first_seen": "2026-11-11T09:09:46+00:00",
+   "notified": false,
+   "price": 5600,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Z.E. 40 R90 mit Batterie Z.E. 40 Motorschade"
   }
  },
  "blocked_runs": 0,
