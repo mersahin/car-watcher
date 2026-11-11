@@ -1000,6 +1000,13 @@
    "price": 6500,
    "reason": "",
    "title": "Renault Kangoo Z.E. Kastenwagen (Elektro)"
+  },
+  "3568060880": {
+   "first_seen": "2026-11-11T07:09:53+00:00",
+   "notified": true,
+   "price": 6800,
+   "reason": "",
+   "title": "Renault Zoe Life/inkl. 22kWh Kaufbatterie"
   }
  },
  "blocked_runs": 0,
