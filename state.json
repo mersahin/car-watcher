@@ -1070,6 +1070,20 @@
    "price": 4500,
    "reason": "privat + 512 km (> 100 km)",
    "title": "Renault Zoe 40, 80.000km, TÜV neu"
+  },
+  "3569089268": {
+   "first_seen": "2026-11-12T11:08:13+00:00",
+   "notified": true,
+   "price": 4200,
+   "reason": "",
+   "title": "Renault ZOE"
+  },
+  "3569093085": {
+   "first_seen": "2026-11-12T11:08:28+00:00",
+   "notified": false,
+   "price": 4400,
+   "reason": "privat + 450 km (> 100 km)",
+   "title": "Citroën C-Zero 49kW -"
   }
  },
  "blocked_runs": 0,
