@@ -1063,6 +1063,13 @@
    "price": 4500,
    "reason": "kara liste: 'ersatzteil'",
    "title": "Nissan Leaf 24 kWh Elektroauto - TÜV 08/2028"
+  },
+  "3569058072": {
+   "first_seen": "2026-11-12T10:08:49+00:00",
+   "notified": false,
+   "price": 4500,
+   "reason": "privat + 512 km (> 100 km)",
+   "title": "Renault Zoe 40, 80.000km, TÜV neu"
   }
  },
  "blocked_runs": 0,
