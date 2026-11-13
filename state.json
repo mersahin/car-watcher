@@ -1112,6 +1112,13 @@
    "price": 6500,
    "reason": "privat + 279 km (> 100 km)",
    "title": "Renault Zoe Zen (Batterie inklusive)"
+  },
+  "3570092732": {
+   "first_seen": "2026-11-13T13:08:39+00:00",
+   "notified": false,
+   "price": 6850,
+   "reason": "privat + 279 km (> 100 km)",
+   "title": "Renault ZOE Zen Zen Kaufbatterie"
   }
  },
  "blocked_runs": 0,
