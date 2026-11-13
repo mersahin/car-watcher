@@ -1001,6 +1001,13 @@
    "reason": "",
    "title": "Renault Kangoo Z.E. Kastenwagen (Elektro)"
   },
+  "3568008923": {
+   "first_seen": "2026-11-13T20:08:47+00:00",
+   "notified": false,
+   "price": 7000,
+   "reason": "privat + 114 km (> 100 km)",
+   "title": "Renault zoe"
+  },
   "3568060880": {
    "first_seen": "2026-11-11T07:09:53+00:00",
    "notified": true,
@@ -1140,6 +1147,13 @@
    "price": 7000,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Intens R135 ZE50 (52 kWh) Vollausstattung-Kauf-Akku"
+  },
+  "3570519204": {
+   "first_seen": "2026-11-13T20:08:39+00:00",
+   "notified": false,
+   "price": 6850,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault ZOE Z.E. | EZ 10/2017 |TÜV 11/2028| Batterie 22kw SOH 93%"
   }
  },
  "blocked_runs": 0,
