@@ -1154,6 +1154,20 @@
    "price": 6850,
    "reason": "kiralık batarya: 'mietbatterie'",
    "title": "Renault ZOE Z.E. | EZ 10/2017 |TÜV 11/2028| Batterie 22kw SOH 93%"
+  },
+  "3570569286": {
+   "first_seen": "2026-11-13T21:07:16+00:00",
+   "notified": false,
+   "price": 6850,
+   "reason": "privat + 233 km (> 100 km)",
+   "title": "Renault ZOE Intens mit Batterie Intens"
+  },
+  "3570572948": {
+   "first_seen": "2026-11-13T21:07:12+00:00",
+   "notified": false,
+   "price": 6850,
+   "reason": "privat + 233 km (> 100 km)",
+   "title": "Renault Zoe"
   }
  },
  "blocked_runs": 0,
