@@ -1098,6 +1098,13 @@
    "price": 5990,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault Zoe Elektro – Bj. 2020 – Batterie gekauft"
+  },
+  "3569950341": {
+   "first_seen": "2026-11-13T11:08:10+00:00",
+   "notified": false,
+   "price": 4000,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe Z40 defekt 300km Reichweite"
   }
  },
  "blocked_runs": 0,
