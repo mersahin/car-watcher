@@ -1196,6 +1196,13 @@
    "price": 3300,
    "reason": "kara liste: 'unfall'",
    "title": "Renault Zoe, Bj 2015, RECHTSLENKER!!! HU 04/28"
+  },
+  "3571288199": {
+   "first_seen": "2026-11-14T15:07:26+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Intens Intens"
   }
  },
  "blocked_runs": 0,
