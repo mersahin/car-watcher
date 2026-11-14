@@ -1182,8 +1182,22 @@
    "price": 6990,
    "reason": "",
    "title": "Renault ZOE Zoe Intens RFK*22kWh*SoH 87%"
+  },
+  "3571113109": {
+   "first_seen": "2026-11-14T13:07:48+00:00",
+   "notified": true,
+   "price": 5999,
+   "reason": "",
+   "title": "Renault ZOE Zoe Zen"
+  },
+  "3571137129": {
+   "first_seen": "2026-11-14T13:07:54+00:00",
+   "notified": false,
+   "price": 3300,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault Zoe, Bj 2015, RECHTSLENKER!!! HU 04/28"
   }
  },
- "blocked_runs": 1,
+ "blocked_runs": 0,
  "empty_runs": 0
 }
