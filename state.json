@@ -1203,6 +1203,13 @@
    "price": 5500,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Intens Intens"
+  },
+  "3571412552": {
+   "first_seen": "2026-11-14T17:06:51+00:00",
+   "notified": true,
+   "price": 6000,
+   "reason": "",
+   "title": "Nissan Juke 1,5 dci"
   }
  },
  "blocked_runs": 0,
