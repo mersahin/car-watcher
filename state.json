@@ -1168,8 +1168,22 @@
    "price": 6850,
    "reason": "privat + 233 km (> 100 km)",
    "title": "Renault Zoe"
+  },
+  "3570982291": {
+   "first_seen": "2026-11-14T12:10:42+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Nissan Leaf Zeo Leaf"
+  },
+  "3571034783": {
+   "first_seen": "2026-11-14T12:10:54+00:00",
+   "notified": true,
+   "price": 6990,
+   "reason": "",
+   "title": "Renault ZOE Zoe Intens RFK*22kWh*SoH 87%"
   }
  },
- "blocked_runs": 0,
+ "blocked_runs": 1,
  "empty_runs": 0
 }
