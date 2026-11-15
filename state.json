@@ -1252,6 +1252,13 @@
    "price": 6900,
    "reason": "kiralık batarya: 'batteriemiete'",
    "title": "Renault Zoe Z.E. 40 Intens - Bj. 6/2017"
+  },
+  "3572602000": {
+   "first_seen": "2026-11-15T15:07:32+00:00",
+   "notified": false,
+   "price": 2850,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE"
   }
  },
  "blocked_runs": 0,
