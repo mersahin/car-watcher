@@ -1238,6 +1238,20 @@
    "price": 5900,
    "reason": "privat + 247 km (> 100 km)",
    "title": "Renault ZOE Kaufbatterie keine extra Kosten HU 9/28"
+  },
+  "3572396638": {
+   "first_seen": "2026-11-15T14:07:43+00:00",
+   "notified": false,
+   "price": 4500,
+   "reason": "privat + 357 km (> 100 km)",
+   "title": "Renault Zoe"
+  },
+  "3572404626": {
+   "first_seen": "2026-11-15T14:07:35+00:00",
+   "notified": false,
+   "price": 6900,
+   "reason": "kiralık batarya: 'batteriemiete'",
+   "title": "Renault Zoe Z.E. 40 Intens - Bj. 6/2017"
   }
  },
  "blocked_runs": 0,
