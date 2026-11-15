@@ -1266,6 +1266,13 @@
    "price": 3333,
    "reason": "",
    "title": "Nissan Leaf ZE0 ( erste Generation)"
+  },
+  "3572833267": {
+   "first_seen": "2026-11-15T18:09:34+00:00",
+   "notified": false,
+   "price": 1000,
+   "reason": "privat + 349 km (> 100 km)",
+   "title": "Suche einen Citroën C-Zero / Peugeot iOn / Mitsubishi i-MiEV (auc"
   }
  },
  "blocked_runs": 0,
