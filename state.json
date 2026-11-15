@@ -1231,6 +1231,13 @@
    "price": 6700,
    "reason": "",
    "title": "Renault Zoe"
+  },
+  "3572017721": {
+   "first_seen": "2026-11-15T11:07:47+00:00",
+   "notified": false,
+   "price": 5900,
+   "reason": "privat + 247 km (> 100 km)",
+   "title": "Renault ZOE Kaufbatterie keine extra Kosten HU 9/28"
   }
  },
  "blocked_runs": 0,
