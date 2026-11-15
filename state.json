@@ -1224,6 +1224,13 @@
    "price": 4800,
    "reason": "privat + 297 km (> 100 km)",
    "title": "Citroen C-Zero Elektro TÜV neu"
+  },
+  "3571926381": {
+   "first_seen": "2026-11-15T10:07:50+00:00",
+   "notified": true,
+   "price": 6700,
+   "reason": "",
+   "title": "Renault Zoe"
   }
  },
  "blocked_runs": 0,
