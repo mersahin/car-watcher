@@ -1259,6 +1259,13 @@
    "price": 2850,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE"
+  },
+  "3572807482": {
+   "first_seen": "2026-11-15T17:06:46+00:00",
+   "notified": true,
+   "price": 3333,
+   "reason": "",
+   "title": "Nissan Leaf ZE0 ( erste Generation)"
   }
  },
  "blocked_runs": 0,
