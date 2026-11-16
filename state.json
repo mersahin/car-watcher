@@ -1336,6 +1336,20 @@
    "price": 6500,
    "reason": "privat + 428 km (> 100 km)",
    "title": "Renault ZOE Z.E. 40 R90 mit Kaufbatterie 41 KWH"
+  },
+  "3573768688": {
+   "first_seen": "2026-11-16T17:08:33+00:00",
+   "notified": false,
+   "price": 5900,
+   "reason": "privat + 467 km (> 100 km)",
+   "title": "Renault ZOE Intens R240"
+  },
+  "3573777266": {
+   "first_seen": "2026-11-16T17:08:24+00:00",
+   "notified": false,
+   "price": 5650,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault ZOE Intens Mietbatterie"
   }
  },
  "blocked_runs": 0,
