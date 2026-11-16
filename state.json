@@ -1273,6 +1273,20 @@
    "price": 1000,
    "reason": "privat + 349 km (> 100 km)",
    "title": "Suche einen Citroën C-Zero / Peugeot iOn / Mitsubishi i-MiEV (auc"
+  },
+  "3573132651": {
+   "first_seen": "2026-11-16T05:10:28+00:00",
+   "notified": false,
+   "price": 4200,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault zoe Eliktro auto mit tüv"
+  },
+  "3573136437": {
+   "first_seen": "2026-11-16T05:10:24+00:00",
+   "notified": false,
+   "price": 6400,
+   "reason": "privat + 179 km (> 100 km)",
+   "title": "Renault ZOE"
   }
  },
  "blocked_runs": 0,
