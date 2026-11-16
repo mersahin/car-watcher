@@ -1294,6 +1294,13 @@
    "price": 6100,
    "reason": "privat + 410 km (> 100 km)",
    "title": "Renault Zoe inkl. Batterie 22 KW"
+  },
+  "3573287691": {
+   "first_seen": "2026-11-16T09:13:16+00:00",
+   "notified": true,
+   "price": 6600,
+   "reason": "",
+   "title": "Renault ZOE Zoe Zen"
   }
  },
  "blocked_runs": 0,
