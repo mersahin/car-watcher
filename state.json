@@ -1329,6 +1329,13 @@
    "price": 6500,
    "reason": "privat + 112 km (> 100 km)",
    "title": "10"
+  },
+  "3573735432": {
+   "first_seen": "2026-11-16T16:09:39+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 428 km (> 100 km)",
+   "title": "Renault ZOE Z.E. 40 R90 mit Kaufbatterie 41 KWH"
   }
  },
  "blocked_runs": 0,
