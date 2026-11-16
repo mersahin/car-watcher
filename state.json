@@ -1322,6 +1322,13 @@
    "price": 4000,
    "reason": "kara liste: 'unfall'",
    "title": "Renault Zoe Experience R110 – Unfallwagen – ohne Batterie"
+  },
+  "3573659224": {
+   "first_seen": "2026-11-16T15:11:05+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 112 km (> 100 km)",
+   "title": "10"
   }
  },
  "blocked_runs": 0,
