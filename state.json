@@ -1315,6 +1315,13 @@
    "price": 4150,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Zoe Life*Inkl.Batterie*Navi*Klima*PDC*"
+  },
+  "3573495151": {
+   "first_seen": "2026-11-16T12:17:09+00:00",
+   "notified": false,
+   "price": 4000,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault Zoe Experience R110 – Unfallwagen – ohne Batterie"
   }
  },
  "blocked_runs": 0,
