@@ -1301,6 +1301,20 @@
    "price": 6600,
    "reason": "",
    "title": "Renault ZOE Zoe Zen"
+  },
+  "3573372113": {
+   "first_seen": "2026-11-16T11:09:23+00:00",
+   "notified": false,
+   "price": 6750,
+   "reason": "privat + 179 km (> 100 km)",
+   "title": "Renault ZOE"
+  },
+  "3573401491": {
+   "first_seen": "2026-11-16T11:09:15+00:00",
+   "notified": false,
+   "price": 4150,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Zoe Life*Inkl.Batterie*Navi*Klima*PDC*"
   }
  },
  "blocked_runs": 0,
