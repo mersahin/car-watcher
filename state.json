@@ -1350,6 +1350,13 @@
    "price": 5650,
    "reason": "kara liste: 'defekt'",
    "title": "Renault ZOE Intens Mietbatterie"
+  },
+  "3574222831": {
+   "first_seen": "2026-11-17T09:10:13+00:00",
+   "notified": false,
+   "price": 3999,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Intens*Klima*Navi*PDC*Kamera*Inkl.Batterie*"
   }
  },
  "blocked_runs": 0,
