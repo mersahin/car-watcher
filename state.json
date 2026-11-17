@@ -1357,6 +1357,20 @@
    "price": 3999,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Intens*Klima*Navi*PDC*Kamera*Inkl.Batterie*"
+  },
+  "3574582434": {
+   "first_seen": "2026-11-17T15:09:19+00:00",
+   "notified": false,
+   "price": 6150,
+   "reason": "privat + 454 km (> 100 km)",
+   "title": "Renault Zoe 22 Intens"
+  },
+  "3574603678": {
+   "first_seen": "2026-11-17T15:09:12+00:00",
+   "notified": false,
+   "price": 3800,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault ZOE Zoe Intens, Navi, Sommer u. Winterräder"
   }
  },
  "blocked_runs": 0,
