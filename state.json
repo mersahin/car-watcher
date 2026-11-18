@@ -1378,6 +1378,13 @@
    "price": 3800,
    "reason": "kara liste: 'defekt'",
    "title": "Renault ZOE Zoe Intens, Navi, Sommer u. Winterräder"
+  },
+  "3575307507": {
+   "first_seen": "2026-11-18T12:12:31+00:00",
+   "notified": false,
+   "price": 4900,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault Zoe Intens Mietbatterie"
   }
  },
  "blocked_runs": 0,
