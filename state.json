@@ -1385,6 +1385,13 @@
    "price": 4900,
    "reason": "kiralık batarya: 'mietbatterie'",
    "title": "Renault Zoe Intens Mietbatterie"
+  },
+  "3575446528": {
+   "first_seen": "2026-11-18T14:09:10+00:00",
+   "notified": false,
+   "price": 1350,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "MITSUBISHI I-MIEV ELEKTRO"
   }
  },
  "blocked_runs": 0,
