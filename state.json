@@ -1420,6 +1420,13 @@
    "price": 5850,
    "reason": "kiralık batarya: 'batteriemiete'",
    "title": "Renault Zoe – inkl Batterie – Klima, Navi – 100km für 5 Euro!"
+  },
+  "3575783239": {
+   "first_seen": "2026-11-18T20:09:00+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "kiralık batarya: 'batteriemiete'",
+   "title": "Renault Zoe 52kw CCS 135 Intens Mietbatterie"
   }
  },
  "blocked_runs": 0,
