@@ -1392,6 +1392,20 @@
    "price": 1350,
    "reason": "kara liste: 'beschädigt'",
    "title": "MITSUBISHI I-MIEV ELEKTRO"
+  },
+  "3575560097": {
+   "first_seen": "2026-11-18T16:09:08+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "privat + 242 km (> 100 km)",
+   "title": "Renault ZOE"
+  },
+  "3575591233": {
+   "first_seen": "2026-11-18T16:09:01+00:00",
+   "notified": false,
+   "price": 1000,
+   "reason": "kara liste: 'unfall'",
+   "title": "Suche Renault Twizy, Unfall oder defekt"
   }
  },
  "blocked_runs": 0,
