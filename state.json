@@ -1434,6 +1434,13 @@
    "price": 6900,
    "reason": "kara liste: 'defekt'",
    "title": "Zoé Intens mit gehobenen Ausstattungen,91.90% SoH,Neue TÜV, TOP!"
+  },
+  "3576636780": {
+   "first_seen": "2026-11-19T20:09:10+00:00",
+   "notified": false,
+   "price": 4999,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Zoe Evolution R135"
   }
  },
  "blocked_runs": 0,
