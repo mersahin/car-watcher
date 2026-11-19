@@ -1427,6 +1427,13 @@
    "price": 5500,
    "reason": "kiralık batarya: 'batteriemiete'",
    "title": "Renault Zoe 52kw CCS 135 Intens Mietbatterie"
+  },
+  "3576232625": {
+   "first_seen": "2026-11-19T13:08:52+00:00",
+   "notified": false,
+   "price": 6900,
+   "reason": "kara liste: 'defekt'",
+   "title": "Zoé Intens mit gehobenen Ausstattungen,91.90% SoH,Neue TÜV, TOP!"
   }
  },
  "blocked_runs": 0,
