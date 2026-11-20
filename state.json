@@ -1448,6 +1448,13 @@
    "price": 5790,
    "reason": "",
    "title": "Renault Zoe Intens | Elektro | TÜV Neu | SOH 84% | Kauf Batterie!"
+  },
+  "3577074552": {
+   "first_seen": "2026-11-20T12:12:16+00:00",
+   "notified": false,
+   "price": 5900,
+   "reason": "privat + 237 km (> 100 km)",
+   "title": "Renault ZOE Life"
   }
  },
  "blocked_runs": 0,
