@@ -1455,6 +1455,13 @@
    "price": 5900,
    "reason": "privat + 237 km (> 100 km)",
    "title": "Renault ZOE Life"
+  },
+  "3577215766": {
+   "first_seen": "2026-11-20T14:09:15+00:00",
+   "notified": false,
+   "price": 1200,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Z.E. 40 R90 Z.E. 40 defekter Onboard-Lader"
   }
  },
  "blocked_runs": 0,
