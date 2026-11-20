@@ -1476,6 +1476,13 @@
    "price": 5970,
    "reason": "kara liste: 'unfall'",
    "title": "Nissan Leaf Acenta ZE0 - Klimaautomatik, Navi, Kamera"
+  },
+  "3577480056": {
+   "first_seen": "2026-11-20T19:07:46+00:00",
+   "notified": false,
+   "price": 4900,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault ZOE, Mietbatterie, 2015, 99500km, top Zustand"
   }
  },
  "blocked_runs": 0,
