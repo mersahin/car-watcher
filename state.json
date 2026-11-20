@@ -1462,6 +1462,13 @@
    "price": 1200,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Z.E. 40 R90 Z.E. 40 defekter Onboard-Lader"
+  },
+  "3577274824": {
+   "first_seen": "2026-11-20T15:08:44+00:00",
+   "notified": false,
+   "price": 6800,
+   "reason": "kiralık batarya: 'batteriemiete'",
+   "title": "Renault ZOE Zen Batteriemiete Raus Kauf 300€ möglich"
   }
  },
  "blocked_runs": 0,
