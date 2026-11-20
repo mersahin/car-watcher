@@ -1441,6 +1441,13 @@
    "price": 4999,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Zoe Evolution R135"
+  },
+  "3576762615": {
+   "first_seen": "2026-11-20T05:09:15+00:00",
+   "notified": true,
+   "price": 5790,
+   "reason": "",
+   "title": "Renault Zoe Intens | Elektro | TÜV Neu | SOH 84% | Kauf Batterie!"
   }
  },
  "blocked_runs": 0,
