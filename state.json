@@ -1497,6 +1497,13 @@
    "price": 6780,
    "reason": "",
    "title": "Renault Zoe Intens | 1st. Generation | 84% Soh | 41 kWh |"
+  },
+  "3578012049": {
+   "first_seen": "2026-11-21T12:11:00+00:00",
+   "notified": false,
+   "price": 6700,
+   "reason": "kara liste: 'unfall'",
+   "title": "✅Renault Zoe ZE50 R135 BaterieMiete, Carplay,Rückfahrkamera, Navi"
   }
  },
  "blocked_runs": 0,
