@@ -1511,6 +1511,13 @@
    "price": 4500,
    "reason": "privat + 247 km (> 100 km)",
    "title": "Renault ZOE Kaufbatterie, keine extra Kosten"
+  },
+  "3578586770": {
+   "first_seen": "2026-11-21T20:08:03+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 329 km (> 100 km)",
+   "title": "Renault ZOE Life R240 mit Kaufbatterie und 22KW Lader"
   }
  },
  "blocked_runs": 0,
