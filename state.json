@@ -1483,6 +1483,13 @@
    "price": 4900,
    "reason": "kiralık batarya: 'mietbatterie'",
    "title": "Renault ZOE, Mietbatterie, 2015, 99500km, top Zustand"
+  },
+  "3577743634": {
+   "first_seen": "2026-11-21T08:10:35+00:00",
+   "notified": false,
+   "price": 3350,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Zoe R90 für Bastler"
   }
  },
  "blocked_runs": 0,
