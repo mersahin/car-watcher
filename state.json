@@ -850,7 +850,7 @@
   "3563354451": {
    "first_seen": "2026-11-06T15:09:26+00:00",
    "notified": true,
-   "price": 5500,
+   "price": 4990,
    "reason": "",
    "title": "Nissan Leaf Tekna"
   },
@@ -1518,6 +1518,13 @@
    "price": 6500,
    "reason": "privat + 329 km (> 100 km)",
    "title": "Renault ZOE Life R240 mit Kaufbatterie und 22KW Lader"
+  },
+  "3578658119": {
+   "first_seen": "2026-11-22T05:08:22+00:00",
+   "notified": true,
+   "price": 3999,
+   "reason": "",
+   "title": "Renault ZOE Zoe Intens Automatik 43 KW"
   }
  },
  "blocked_runs": 0,
