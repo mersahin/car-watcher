@@ -1539,6 +1539,13 @@
    "price": 6300,
    "reason": "kiralık batarya: 'mietbatterie'",
    "title": "Renault ZOE"
+  },
+  "3579846196": {
+   "first_seen": "2026-11-22T19:06:38+00:00",
+   "notified": false,
+   "price": 6899,
+   "reason": "kara liste: 'bastler'",
+   "title": "Renault ZOE Eigene Batterie,TÜV,Vieles Neu"
   }
  },
  "blocked_runs": 0,
