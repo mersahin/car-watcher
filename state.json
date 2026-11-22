@@ -1525,6 +1525,13 @@
    "price": 3999,
    "reason": "",
    "title": "Renault ZOE Zoe Intens Automatik 43 KW"
+  },
+  "3578750564": {
+   "first_seen": "2026-11-22T07:08:36+00:00",
+   "notified": false,
+   "price": 5500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Life TÜV+Bremsen neu, Batterie inkl,  SOH 88"
   }
  },
  "blocked_runs": 0,
