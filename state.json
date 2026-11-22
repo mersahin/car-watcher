@@ -1532,6 +1532,13 @@
    "price": 5500,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Life TÜV+Bremsen neu, Batterie inkl,  SOH 88"
+  },
+  "3579419473": {
+   "first_seen": "2026-11-22T14:07:40+00:00",
+   "notified": false,
+   "price": 6300,
+   "reason": "kiralık batarya: 'mietbatterie'",
+   "title": "Renault ZOE"
   }
  },
  "blocked_runs": 0,
