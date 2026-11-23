@@ -1546,6 +1546,13 @@
    "price": 6899,
    "reason": "kara liste: 'bastler'",
    "title": "Renault ZOE Eigene Batterie,TÜV,Vieles Neu"
+  },
+  "3580193270": {
+   "first_seen": "2026-11-23T09:12:28+00:00",
+   "notified": false,
+   "price": 3300,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Kauf Batterie"
   }
  },
  "blocked_runs": 0,
