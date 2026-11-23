@@ -1553,6 +1553,13 @@
    "price": 3300,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault ZOE Kauf Batterie"
+  },
+  "3580625786": {
+   "first_seen": "2026-11-23T16:08:42+00:00",
+   "notified": true,
+   "price": 4990,
+   "reason": "",
+   "title": "Renault ZOE Zoe Zen/Navi/Kamera/8xBereift/2.Hd/Top"
   }
  },
  "blocked_runs": 0,
