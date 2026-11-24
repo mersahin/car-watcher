@@ -1588,6 +1588,13 @@
    "price": 5299,
    "reason": "privat + 253 km (> 100 km)",
    "title": "Renault Zoe 41kwh Life 2017"
+  },
+  "3581529009": {
+   "first_seen": "2026-11-24T16:09:53+00:00",
+   "notified": false,
+   "price": 4190,
+   "reason": "kiralık batarya: 'batteriemiete'",
+   "title": "Renault Renault ZOE Zen R240 | TÜV 08/27"
   }
  },
  "blocked_runs": 0,
