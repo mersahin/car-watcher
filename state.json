@@ -1567,6 +1567,20 @@
    "price": 2999,
    "reason": "",
    "title": "Mitsubishi i-MiEV Basis"
+  },
+  "3581158488": {
+   "first_seen": "2026-11-24T10:08:37+00:00",
+   "notified": false,
+   "price": 1999,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE, AHK, inkl Batterie,  nicht fahrbereit"
+  },
+  "3581176242": {
+   "first_seen": "2026-11-24T10:08:33+00:00",
+   "notified": false,
+   "price": 5299,
+   "reason": "privat + 253 km (> 100 km)",
+   "title": "Renault Zoe 41kwh Life 2017"
   }
  },
  "blocked_runs": 0,
