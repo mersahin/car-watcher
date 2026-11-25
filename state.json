@@ -1609,6 +1609,20 @@
    "price": 5900,
    "reason": "",
    "title": "Renault Zoe Intens*LED*Navi*Kamera*Inklusive Batterie***"
+  },
+  "3582159682": {
+   "first_seen": "2026-11-25T13:09:09+00:00",
+   "notified": false,
+   "price": 3600,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault ZOE Zoe Intens inkl. Batterie"
+  },
+  "3582163979": {
+   "first_seen": "2026-11-25T13:09:05+00:00",
+   "notified": false,
+   "price": 5300,
+   "reason": "kara liste: 'unfall'",
+   "title": "Renault ZOE Zoe Life"
   }
  },
  "blocked_runs": 0,
