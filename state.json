@@ -1623,6 +1623,20 @@
    "price": 5300,
    "reason": "kara liste: 'unfall'",
    "title": "Renault ZOE Zoe Life"
+  },
+  "3582254768": {
+   "first_seen": "2026-11-25T15:09:25+00:00",
+   "notified": true,
+   "price": 3000,
+   "reason": "",
+   "title": "Suche einen Renault Zoe"
+  },
+  "3582260127": {
+   "first_seen": "2026-11-25T15:09:18+00:00",
+   "notified": false,
+   "price": 4600,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault Zoe Intens – Kaufbatterie – TÜV Oktober 2027 – Ladedefekt"
   }
  },
  "blocked_runs": 0,
