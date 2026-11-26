@@ -1644,6 +1644,13 @@
    "price": 6899,
    "reason": "privat + 383 km (> 100 km)",
    "title": "Renault ZOE inkl. Batterie & TÜV"
+  },
+  "3582721985": {
+   "first_seen": "2026-11-26T08:11:12+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "privat + 443 km (> 100 km)",
+   "title": "Renault ZOE 2018 inkl. Batterie"
   }
  },
  "blocked_runs": 0,
