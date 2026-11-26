@@ -1651,6 +1651,13 @@
    "price": 6500,
    "reason": "privat + 443 km (> 100 km)",
    "title": "Renault ZOE 2018 inkl. Batterie"
+  },
+  "3582767059": {
+   "first_seen": "2026-11-26T09:10:19+00:00",
+   "notified": true,
+   "price": 5990,
+   "reason": "",
+   "title": "Renault ZOE Intens++inkusive Batterie++"
   }
  },
  "blocked_runs": 0,
