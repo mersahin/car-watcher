@@ -1658,6 +1658,20 @@
    "price": 5990,
    "reason": "",
    "title": "Renault ZOE Intens++inkusive Batterie++"
+  },
+  "3583145470": {
+   "first_seen": "2026-11-26T16:10:04+00:00",
+   "notified": true,
+   "price": 5900,
+   "reason": "",
+   "title": "Renault ZOE Zoe Intens"
+  },
+  "3583174107": {
+   "first_seen": "2026-11-26T16:10:11+00:00",
+   "notified": false,
+   "price": 5900,
+   "reason": "privat + 143 km (> 100 km)",
+   "title": "Renault Zoe mit Eigentumsbatterie"
   }
  },
  "blocked_runs": 0,
