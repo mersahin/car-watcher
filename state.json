@@ -1672,6 +1672,13 @@
    "price": 5900,
    "reason": "privat + 143 km (> 100 km)",
    "title": "Renault Zoe mit Eigentumsbatterie"
+  },
+  "3583254202": {
+   "first_seen": "2026-11-26T18:10:18+00:00",
+   "notified": false,
+   "price": 4999,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault ZOE R240 Intens 25.9 kWh"
   }
  },
  "blocked_runs": 0,
