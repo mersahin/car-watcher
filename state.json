@@ -1686,6 +1686,13 @@
    "price": 5490,
    "reason": "",
    "title": "Renault ZOE Intens Intens"
+  },
+  "3583718123": {
+   "first_seen": "2026-11-27T12:13:06+00:00",
+   "notified": false,
+   "price": 6500,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault ZOE R110 LIMITED"
   }
  },
  "blocked_runs": 0,
