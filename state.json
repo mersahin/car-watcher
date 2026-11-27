@@ -1693,6 +1693,20 @@
    "price": 6500,
    "reason": "kara liste: 'defekt'",
    "title": "Renault ZOE R110 LIMITED"
+  },
+  "3583859393": {
+   "first_seen": "2026-11-27T14:09:09+00:00",
+   "notified": true,
+   "price": 4999,
+   "reason": "",
+   "title": "Renault ZOE Zoe Intens (TÜV 03/2028)"
+  },
+  "3583868009": {
+   "first_seen": "2026-11-27T14:09:25+00:00",
+   "notified": true,
+   "price": 3333,
+   "reason": "",
+   "title": "Citroën C-Zero Tendance *4.Hand*Bluetooth*"
   }
  },
  "blocked_runs": 0,
