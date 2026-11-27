@@ -1707,6 +1707,13 @@
    "price": 3333,
    "reason": "",
    "title": "Citroën C-Zero Tendance *4.Hand*Bluetooth*"
+  },
+  "3583975072": {
+   "first_seen": "2026-11-27T16:09:50+00:00",
+   "notified": false,
+   "price": 4000,
+   "reason": "privat + 336 km (> 100 km)",
+   "title": "Renault Zoe Eigentumsbatterie Ladefehler"
   }
  },
  "blocked_runs": 0,
