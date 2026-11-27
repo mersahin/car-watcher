@@ -1714,6 +1714,13 @@
    "price": 4000,
    "reason": "privat + 336 km (> 100 km)",
    "title": "Renault Zoe Eigentumsbatterie Ladefehler"
+  },
+  "3584164733": {
+   "first_seen": "2026-11-27T20:08:13+00:00",
+   "notified": false,
+   "price": 1500,
+   "reason": "kara liste: 'beschädigt'",
+   "title": "Renault zoe 2016 - Defekt"
   }
  },
  "blocked_runs": 0,
