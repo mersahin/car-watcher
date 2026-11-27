@@ -1679,6 +1679,13 @@
    "price": 4999,
    "reason": "kara liste: 'defekt'",
    "title": "Renault ZOE R240 Intens 25.9 kWh"
+  },
+  "3583419870": {
+   "first_seen": "2026-11-27T05:09:00+00:00",
+   "notified": true,
+   "price": 5490,
+   "reason": "",
+   "title": "Renault ZOE Intens Intens"
   }
  },
  "blocked_runs": 0,
