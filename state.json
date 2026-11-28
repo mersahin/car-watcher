@@ -1721,6 +1721,13 @@
    "price": 1500,
    "reason": "kara liste: 'beschädigt'",
    "title": "Renault zoe 2016 - Defekt"
+  },
+  "3584306545": {
+   "first_seen": "2026-11-28T07:08:40+00:00",
+   "notified": false,
+   "price": 3300,
+   "reason": "kara liste: 'defekt'",
+   "title": "Renault ZOE mit Eigentumsbatterie *Tüv03/2028*"
   }
  },
  "blocked_runs": 0,
