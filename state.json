@@ -1728,6 +1728,13 @@
    "price": 3300,
    "reason": "kara liste: 'defekt'",
    "title": "Renault ZOE mit Eigentumsbatterie *Tüv03/2028*"
+  },
+  "3584465201": {
+   "first_seen": "2026-11-28T10:08:01+00:00",
+   "notified": false,
+   "price": 6800,
+   "reason": "privat + 373 km (> 100 km)",
+   "title": "Renault Zoe Elektronik"
   }
  },
  "blocked_runs": 0,
